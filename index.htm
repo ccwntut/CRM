@@ -78,7 +78,26 @@ mark.pink {
 }
 
 </style>     
-
+<style>
+  h1, h2 {
+      color: #9d2b84;
+      font-weight: 900;
+  }
+  p {
+      margin-bottom: 10px;
+  }
+  ul {
+      margin: 10px 0;
+      padding-left: 20px;
+  }
+  li {
+      margin-bottom: 5px;
+  }
+  .highlight {
+      font-weight: bold;
+      color: #007BFF;
+  }
+</style>
 
 <script>
  function show01()
@@ -178,11 +197,15 @@ mark.pink {
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li> <a class="dropdown-item" href="../python/">python基礎</a></li>
               <li> <a class="dropdown-item" href="../pandas/">pandas商業數據程式分析</a></li> 
+              <li> <a class="dropdown-item" href="../pandas_emi/">Pandas Business Data Analysis(EMI)</a></li> 
+              
               <li> <a class="dropdown-item" href="../sql/">SQL資料分析</a></li>
               <li> <a class="dropdown-item" href="../sql_emi/">SQL Database Systems and Applications(EMI)</a></li>
 
               <li> <a class="dropdown-item" href="../scipy/">scipy統計數據分析</a></li> 
               <li> <a class="dropdown-item" href="../predict/">python人工智慧在商情預測之應用</a></li> 
+              <li> <a class="dropdown-item" href="../statistic/">SPSS統計應用與資料分析</a></li> 
+
               <li> <a class="dropdown-item" href="../ai_auto/">工作流程的AI自動化</a></li> 
               <li> <a class="dropdown-item" href="../AI_Intro/">人工智慧概論(通識)</a></li>
               <li> <a class="dropdown-item" href="../python_data/">python網絡大數據分析與爬取</a></li>               
@@ -208,11 +231,13 @@ mark.pink {
               <li> <a class="dropdown-item" href="../Ecommerce_emi/">Ecommerce(EMI)</a></li>
 
 
-              <li> <a class="dropdown-item" href="../GA">Google Analytics流量分析(GA)</a></li> 
+              <li> <a class="dropdown-item" href="../GA">Google Analytics流量分析與數位行銷</a></li>
+              <li> <a class="dropdown-item" href="../GA_emi">GA4 Analysis and Digital Marketing(EMI)</a></li>
+               
               <li> <a class="dropdown-item" href="../GTM">Google Tag Manager(GTM)代碼管理工具</a></li> 
               <li> <a class="dropdown-item" href="../GAds">Google Ads廣告行銷</a></li> 
               <li> <a class="dropdown-item" href="../GLookerStudio/">Google Looker Studio行銷數據視覺化</a></li> 
-
+              <li> <a class="dropdown-item" href="../PowerBI/">PowerBI行銷數據視覺化</a></li>
             </ul>
           </li> 
 
@@ -263,6 +288,48 @@ mark.pink {
               <td colspan="6"><div align="center">
                   <div align="center">陳擎文教學網：客戶關係管理（Customer Relationship Management，CRM）<br>
                     <div align="left" class="purple">
+                      <hr> 
+                      <span class="red">
+                        1.【課程重點與索引目錄】：
+                      </span>
+                      <p style="padding-left: 60px;">
+                        <mark onclick="scrollToSection('main1')" class="yellow">一，客戶關係管理概述</mark>
+                        <br><mark onclick="scrollToSection('main2')" class="yellow">二，實作：傳統手機客戶數據方法：問卷調查</mark>
+
+                        <br><mark onclick="scrollToSection('main3')" class="yellow">三，實作：傳統量化分析方法：SPSS</mark>
+                        <br><mark onclick="scrollToSection('main3-1')" class="yellow">3-1，SPSS輸入數據的各種方法</mark>
+                        <br><mark onclick="scrollToSection('main3-2')" class="yellow">3-2，SPSS繪製圖表的各種方法</mark>
+                        <br><mark onclick="scrollToSection('main3-3')" class="yellow">3-3，報表分析</mark>
+                        <ul style="padding-left: 130px;">                          
+                          <li onclick="scrollToSection('main3-3-a')"><mark class="yellow">3-3-A，報表分析(1)：線上多層分析處理過程(OLAP)</mark></li>
+                          <li onclick="scrollToSection('main3-3-b')"><mark class="yellow">3-3-B，報表分析(2，3)：列/欄的報告摘要</mark></li>
+                          <li onclick="scrollToSection('main3-3-c')"><mark class="yellow">3-3-C，報表分析(4)：觀察值摘要</mark></li>
+                         </ul>
+                         </p>
+                         <p style="padding-left: 60px;">
+                         <mark onclick="scrollToSection('main3-4')" class="yellow">3-4，描述統計</mark>
+                         <ul style="padding-left: 130px;">                          
+                           <li onclick="scrollToSection('main3-4-a')"><mark class="yellow">3-4-A，描述統計(1)：次數分配表</mark></li>
+                           <li onclick="scrollToSection('main3-4-b')"><mark class="yellow">3-4-B，描述統計(2)：描述統計</mark></li>
+                           <li onclick="scrollToSection('main3-4-c')"><mark class="yellow">3-4-C，描述統計(3)：預檢資料，Explore</mark></li>
+                          </ul> 
+                        </p>
+                        <p style="padding-left: 60px;">
+                        <mark onclick="scrollToSection('main3-5')" class="yellow">3-5，交叉分析表，Cross Tables</mark>
+                        <br><mark onclick="scrollToSection('main3-6')" class="yellow">3-6，相對比分析，比例分析，Ratio</mark>
+                        <br><mark onclick="scrollToSection('main3-7')" class="yellow">3-7，單一樣本t檢定（1個連續數值y）</mark>
+                        <br><mark onclick="scrollToSection('main3-8')" class="yellow">3-8，獨立樣本t檢定（2類別x vs 連續數值y）</mark>
+                        <br><mark onclick="scrollToSection('main3-9')" class="yellow">3-9，成對樣本t檢定，配對樣本t檢定（彼此有相關的類別x vs 連續數值y）</mark>
+                        <br><mark onclick="scrollToSection('main3-10')" class="yellow">3-10，單因子變異數分析，ANOVA：檢驗多組(n＞2)母體平均數是否相等</mark>
+                        <br><mark onclick="scrollToSection('main3-11')" class="yellow">3-11，相關性研究：探討2個變數之間的相關性</mark>
+                        <br><mark onclick="scrollToSection('main3-12')" class="yellow">3-12，迴歸分析</mark>
+                        <br><mark onclick="scrollToSection('main4')" class="yellow">四，實作：程式量化分析方法：Python統計分析(scipy統計模組)</mark>
+                        <br><mark onclick="scrollToSection('main5')" class="yellow">五，實作：應用人工智慧於顧客區隔（Customer Segmentation）的分群預測</mark>
+
+                        
+                      </p>
+
+                       <hr>  
                       <span class="red">1.CRM的定義：</span><br>
                       是一種企業與<mark class="yellow">【現有客戶及潛在客戶】</mark>之間關係互動的管理。通過對客戶資料的歷史積累和分析，CRM可以增進企業與客戶之間的關係，從而最大化<mark class="yellow">【增加企業銷售收入，提高客戶留存率，滿意度，忠誠度】</mark>：<br>
                       <br>
@@ -322,12 +389,21 @@ mark.pink {
                       ◉(2).進階方法：使用<mark class="yellow">【Python(Scipy)/R程式語言】</mark>來做數據的統計分析、<br>
                       ◉(3).最新方法：使用<mark class="yellow">【生成式AI（ChatGPT 4o，Gemini Pro）】</mark>來做數據的統計分析<br>
                       <br>
-                      <span class="red">9.CRM的主要手段與目的(成效評估)：CRM的「10C」：</span><br>
+                      <br>
+                      <span class="red">9.在美國的職業薪水評比排名：</span>
+                      <br><a href="pic/p133.png" target="_blank">◉【排名圖示】美國薪資排名前3名的，有2個是應用統計相關工作</a>，
+                      <br>應用統計相關工作的薪水，在美國是高於資訊軟體，電腦相關工作的
+                      <br>【與<mark class="yellow">決策</mark>有關的資訊技術】：DDDM（數據驅動的決策模式），包括應用統計(SPSS)在CRM關鍵三步驟應用，與精準行銷
+                      <br><a href="pic/p134.png" target="_blank">◉【相關課程】老師與DDDM相關的授課課程</a>
+
+                      <br>
+                      <br>
+                      <span class="red">10.CRM的主要手段與目的(成效評估)：CRM的「10C」：</span><br>
                       ◉顧客資料（Customer Profile）、顧客知識（Customer Knowledge）、顧客區隔（Customer Segmentation）、客製化行銷（Customization）<br>
                       ◉顧客滿意度（Customer Satisfaction）、顧客保留率（維繫率，Customer Retention）、顧客贏取率（Customer Acquisition）、顧客獲利率（Customer Profitability）、顧客價值（Customer Value）、顧客的貢獻度發展（Customer Development）
                       <br>
                       <br>                      
-                      <span class="red">10.電商的成效評估指標：</span><br>
+                      <span class="red">11.電商的成效評估指標：</span><br>
                       ◉回客率（Back off Rate）、網站轉換率（Conversion Rate，流量轉換率=訂單數/總訪客數）、網站獲利率（Profitability Rate，淨利/成本）<br>
                         
                       ≠＞≧＝≦＜ ➜ μ α，➔➜→➡↓↑←⇄⇌⟷⇈⇊⇇⇉⇆，⬅⬆⬇⮕⬈⬉⬊⬋⬌⬍⭠⭡⭢⭣⭤ ⭥ ⮂⮃
@@ -347,13 +423,14 @@ mark.pink {
 
 
   <p><a href="#chp0">資源（Resource）</a></p>
+  <p><a href="#homework">作業（homework）</a></p>
   <p style="text-indent: 50px;">
-    <a class="text-danger" href="https://docs.google.com/presentation/d/1P8MMnum4gAqG9M_pWHn33AdMikiLjzO8/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank" role="button" >
+    <a class="text-danger" href="https://docs.google.com/presentation/d/1NWDx_lzrz-trHrshOHs9Zl8mOOdsTQxn/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank" role="button" >
       chp0.課程簡介
     </a>
   </p>
 
-  <p><a class="font-weight-bold" >【一，客戶關係管理概述（Customer Relationship Management，CRM）】</a></p>
+  <p id="main1"><a class="font-weight-bold" >【一，客戶關係管理概述（Customer Relationship Management，CRM）】</a></p>
   <p style="text-indent: 50px;">
     <a class="text-danger" href="https://docs.google.com/presentation/d/1r3YZVWKwt1UNNERQtqVaOSmqQr4KtIM5/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">
       chp1.客戶關係管理概述
@@ -376,12 +453,12 @@ mark.pink {
   </p>  
   
   <p style="text-indent: 50px;">
-    <a class="text-danger" href="https://docs.google.com/presentation/d/1dkDDfvT_trQeNhSROcmbwtr6d7ig8AIc/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">
-      chp4.市場區隔與目標客戶選擇
+    <a class="text-danger" href="https://docs.google.com/presentation/d/1VYlcpaQHl1P2kD5Kx_kmJaWk3O6neM0o/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">
+      ☎chp4.市場區隔與目標客戶選擇➜兼論DDDM與精準行銷
     </a>
   </p>  <p style="text-indent: 50px;">
     <a class="text-danger" href="https://docs.google.com/presentation/d/193GqNfHaZc_6jHzc8-_YktuFVo8k8VJP/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">
-      chp5.客戶價值與忠誠度管理➜以胖東來為例
+      ☎chp5.客戶價值與忠誠度管理➜以胖東來為例
     </a>
   </p>  <p style="text-indent: 50px;">
     <a class="text-danger" href="https://docs.google.com/presentation/d/1xbxgm0HZO3HQuWK56DrDzG0JIcybrPqr/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">
@@ -411,7 +488,7 @@ mark.pink {
 
 
 
-  <p><a class="font-weight-bold" >【二，實作：傳統手機客戶數據方法：問卷調查】</a></p>
+  <p id="main2"><a class="font-weight-bold" >【二，實作：傳統手機客戶數據方法：問卷調查】</a></p>
   <p style="text-indent: 50px;">
     <a class="text-danger" data-bs-toggle="collapse" href="#collapseExample-21" role="button" aria-expanded="false" aria-controls="collapseExample-21">
       chp21.問卷調查設計與統計
@@ -439,9 +516,8 @@ mark.pink {
       <p style="text-indent: 60px;"><a href="https://forms.gle/mEACTN8tebK96M7o6" target="_blank">22-1-調查素食葷食問卷</a>
         <br>※輸入問卷標題後【01調查素食葷食】，再點按檔案名稱
         <br>※3個欄位【姓名，性別，便當】，都是必填。【建議事項】不是必填
-        <br>※必須修改分享設定：【設定】➜「回覆」➜「取消勾選」僅限 XXX帳號及其信任機構中的使用者
-        <br>※取得測試網址：在【傳送】取得超連結網址
-        <br>※取得短網址：【傳送】➜縮短網址
+        <br>※取得測試網址：在【發布】取得超連結網址（開放給所有知道網址的使用者）
+        <br>※取得短網址：【發布】➜縮短網址
       </p>
       <br>
       <p style="text-indent: 60px;"><a href="https://forms.gle/mEACTN8tebK96M7o6" target="_blank">22-2-將問卷調查網址轉成QR Code</a>：
@@ -450,7 +526,7 @@ mark.pink {
       <br>➜左下角主選單➜開啟chrome線上應用程式商店
       <br>➜搜尋：QR Code Generator➜找評分高的精選商品➜安裝：
       <br><a href="pic/p01.png" target="_blank">示意圖1</a>，
-      <br>※必須修改分享設定：【設定】➜「回覆」➜在【傳送】取得超連結網址
+      <br>※先取得網址➜在【發布】取得超連結網址
       <br>※複製連結網址到新網頁，然後右上角點單【擴充功能】➜選擇QR Code Generator➜下載QRCode圖片：
       <br><a href="pic/p02.png" target="_blank">示意圖2</a>，<a href="pic/p03.png" target="_blank">示意圖3</a>，
 
@@ -491,63 +567,95 @@ mark.pink {
   </p>
   <div class="collapse" id="collapseExample-23">
     <div class="card card-body">
-      <p style="text-indent: 60px;">新增Goolge 表單【團購泡菜，只有5箱】</p>
-      <p style="text-indent: 60px;"><a href="https://forms.gle/HZA9D2hzTWReN9gi8" target="_blank">23-1-團購泡菜問卷(修改設定：每題預設都是必填)【成果demo】</a>
-        <br>※輸入問卷標題後【02團購泡菜，只有5箱】，再點按檔案名稱
+      <p style="text-indent: 60px;">新增Goolge 表單【02團購泡菜，只有5箱】</p>
+      <p style="text-indent: 60px;">
+        <a href="https://forms.gle/HZA9D2hzTWReN9gi8" target="_blank">23-1-團購泡菜問卷(修改設定：每題預設都是必填)【成果demo】</a>
+        <br><a href="pic/p130.png" target="_blank">23-1-團購泡菜問卷，示意圖</a>
+        <br>
+        <br>※(1).輸入問卷標題後【02團購泡菜，只有5箱】，再點按檔案名稱
         <br>※如何設定欄位預設都是【必填】    
         <br>➜修改上方【設定】➜預設值➜問題預設設定➜【將問題預設為必填】
         <br><a href="pic/p08.png" target="_blank">示意圖8</a>，
         <br>※3個欄位【姓名，部門，辣度】，都是必填。
         <br>➜【部門】：人資，會計，工程
         <br>➜【辣度】：大辣，小辣，不辣
-        <br>※必須修改分享設定：【設定】➜「回覆」➜「取消勾選」僅限 XXX帳號及其信任機構中的使用者
-        <br>※取得測試網址：在【傳送】取得超連結網址
-        <br>※取得短網址：【傳送】➜縮短網址
-      </p>
-      <br>
-      <p style="text-indent: 60px;"><a href="https://forms.gle/mEACTN8tebK96M7o6" target="_blank">23-2-訂購超過5箱就截止訂購【成果demo】</a>：
-        <br>※ 新增1個Google表單，輸入問卷標題後【03在中午11：30前訂購便當】，再點按檔案名稱
-        <br>※【注意】Google表單無法設定【截止時間或最多數量】，必須加上【外掛】
-        <br>➜google chrome的右上角第2個[...]工具➜【取得外掛程式】
-        <br>➜搜尋：formLimiter➜安裝：
-        <br><a href="pic/p10.png" target="_blank">示意圖1</a>，
-        <br>※回到表單【問題】，上方新增一個按鈕【外掛程式】➜formLimiter PORD➜Set Limit➜select➜Number of form response：4➜訂購已經額滿，已經超過5箱➜Save and Enable
-        <br><span class="red">※【特別注意】：至多訂購5個，則numnber必須為4（若是設定5，則可以最多填入6個）</span>
+        <br>※取得測試網址：在【發布】取得超連結網址
+        <br>※取得短網址：【發布】➜縮短網址
+        <br>
+        <br><span class="red">※(2).如何設定限制數目：【團購泡菜，只有5箱】</a>：
+        ※【注意】Google表單無法設定【截止時間或最多數量】，必須加上【外掛】
+      </span>
+        <br>➜chrome的右上角第2個[...]工具➜【取得外掛程式】</span>
+        <br><a href="pic/p129.png" target="_blank">示意圖1</a>，
+        <br>➜<span class="red">搜尋：formLimiter</span>➜安裝：
+        <br><a href="pic/form-01.png" target="_blank">示意圖1</a>，
+        <br>※回到表單【問題】，上方新增一個按鈕【外掛程式】➜Limit IT➜Form➜Limit response：5➜訂購已經額滿，已經超過5箱➜➜Set Limit
         <br><a href="pic/p11.png" target="_blank">示意圖1</a>，
-        <a href="pic/p12.png" target="_blank">示意圖2</a>，
-        <a href="pic/p13.png" target="_blank">示意圖3</a>，
-        <a href="pic/p14.png" target="_blank">示意圖4</a>，
-        <a href="pic/p15.png" target="_blank">示意圖5</a>，
+        <a href="pic/form-02.png" target="_blank">示意圖2</a>，
+        <a href="pic/form-03.png" target="_blank">示意圖3</a>，
+        <a href="pic/form-04.png" target="_blank">示意圖4</a>，
+        <a href="pic/form-05.png" target="_blank">示意圖5</a>，
+        <br><span class="red">※【特別注意】：至多訂購5個，則numnber必須為5</span>
+        <br
         <br>※設定連結試算表➜【回覆】➜在試算表中查看
         <br>※複製網址，在新網頁測試：輸入6筆資料➜第6筆輸入後，無法輸入，且在後台【回覆】➜不接受回應
-        <br><a href="pic/p16.png" target="_blank">示意圖6</a>，
-        <a href="pic/p17.png" target="_blank">示意圖6</a>，
+        <br><a href="pic/form-06.png" target="_blank">示意圖6</a>
         <br>※在試算表查看輸入數據：【回覆】➜在試算表中查看
         <br><a href="pic/p19.png" target="_blank">示意圖7</a>，
       </p>
 
+
+      <hr>
       <br>
-      <p style="text-indent: 60px;"><a href="https://forms.gle/LX7C7boyqUXgCFCW7" target="_blank">23-3-在中午11：30前訂購便當【成果demo】</a>：
-        <br>※回到表單【問題】，上方新增一個按鈕【外掛程式】➜formLimiter PORD➜Set Limit➜select➜Date and Time➜Save and Enable
-        <br><a href="pic/p20.png" target="_blank">示意圖1</a>，
-        <a href="pic/p21.png" target="_blank">示意圖2</a>，
+      <a href="https://forms.gle/LX7C7boyqUXgCFCW7" target="_blank">
+        23-2-在中午11：30前訂購便當【成果demo】：03在中午11：30前訂購便當
+      </a>
+      <p style="text-indent: 0px;">
+        ➜先取消前面的【無法再新增回覆】的設定
+        <br><a href="pic/form-08.png" target="_blank">示意圖1</a>，
+        <a href="pic/form-09.png" target="_blank">示意圖2</a>，
+        <br>
+        <br>
+        <span class="red">
+          ※ 把【前一個表單】複製副本表單，修改問卷標題後【03在中午11：30前訂購便當】，再點按檔案名稱
+        </span>
+        
+        <br><a href="pic/form-10.png" target="_blank">示意圖1</a>，
+        <a href="pic/form-11.png" target="_blank">示意圖2</a>，
+
+        <br><span class="red">※回到表單【問題】，上方新增一個按鈕【外掛程式】➜➜Limit IT➜Form➜Deactivated from on➜13 October 2025 12:33 AM➜Set Limit</span>
+        <br><a href="pic/form-12.png" target="_blank">示意圖1</a>，
+        <a href="pic/form-13.png" target="_blank">示意圖2</a>，
+        <a href="pic/form-14.png" target="_blank">示意圖3</a>，
+        <br><a href="pic/form-15.png" target="_blank">示意圖4</a>，
+        <a href="pic/form-16.png" target="_blank">示意圖5</a>，
+        <a href="pic/form-17.png" target="_blank">示意圖6</a>，
+        <br><a href="pic/form-18.png" target="_blank">示意圖7</a>，
+        <a href="pic/form-19.png" target="_blank">示意圖8</a>，
         <br>※設定超過時間的訊息：已經超過時間，今天無法再訂購便當了
         <br>※測試超過時間，就無法再填寫表單
-        <br><a href="pic/p22.png" target="_blank">示意圖3</a>，
+        <br><a href="pic/form-20.png" target="_blank">示意圖1</a>，
 
       </p>
 
-
+      <hr>
       <br>
-      <p style="text-indent: 60px;"><a href="https://forms.gle/YDnVV6Tq7utpjXKCA" target="_blank">23-4-如何處理每天的訂購便當表單：建立副本【成果demo】</a>：
-        <br>※前一個表單➜滑鼠右鍵➜建立副本➜修改名稱：【04在中午11：30前訂購便當-20241015】
+      <p style="text-indent: 0px;">
+        <a href="https://forms.gle/YDnVV6Tq7utpjXKCA" target="_blank">
+          23-3-如何處理每天的訂購便當表單：建立副本【成果demo】
+        </a>：
+        <br><span class="red">※(1).【如何每天讓辦公室同仁訂購便當】：
+        <br>step1：每天把前一天的表單，複製修改成當天的日期：前一天表單➜滑鼠右鍵➜建立副本➜修改名稱：【04每天在中午11：30前訂購便當-20241015】
+      </span>
         <br><a href="pic/p23.png" target="_blank">示意圖3</a>，
-        <br>※【注意】：建立副本後，原本的外掛程式設定都歸零，必須重新設定外掛
-        <br>※回到表單【問題】，上方新增一個按鈕【外掛程式】➜formLimiter PORD➜Set Limit➜select➜Date and Time➜Save and Enable
+        <br>
+        <br><span class="red">※【注意】：建立副本後，原本的外掛程式設定都歸零，必須重新設定外掛
+        <br>※(2).回到表單【問題】，上方新增一個按鈕【外掛程式】➜formLimiter PORD➜Set Limit➜select➜Date and Time➜Save and Enable</span>
         <br><a href="pic/p20.png" target="_blank">示意圖1</a>，
         <a href="pic/p21.png" target="_blank">示意圖2</a>，
         <br>※設定超過時間的訊息：已經超過時間，今天無法再訂購便當了
-        <br>※輸入2筆數據
+        <br>
+        <br>※(3).輸入2筆數據
         <br><a href="pic/p24.png" target="_blank">示意圖3</a>，
         
       </p>
@@ -568,38 +676,45 @@ mark.pink {
     <div class="card card-body">
       <p style="text-indent: 60px;">新增Goolge 表單【本次活動滿意度調查(單選)】</p>
       <p style="text-indent: 60px;"><a href="https://forms.gle/hVvg9gcex85wMTvGA" target="_blank">24-1-本次活動滿意度調查(單選)【成果demo】</a>
-        <br>※輸入問卷標題後【05本次活動滿意度調查(單選)】，再點按檔案名稱
+        <br>※輸入問卷標題後【<span class="red">05本次活動滿意度調查(單選)</span>】，再點按檔案名稱
         <br>※設定欄位預設都是【必填】，且【所有人都可以瀏覽】
         <br>
-        <br>※(1).右側menu選【新增標題】：一，滿意度調查
+        <br>※(1).右側menu選【新增標題】：<span class="red">一，滿意度調查</span>
         <br><a href="pic/p25.png" target="_blank">示意圖1</a>，
-        <br>※製作李克特五點量表(數字小的為不滿意，數字大的為滿意)：
+        <br>
+        <br><span class="red">※(2).製作李克特五點量表(數字小的為不滿意，數字大的為滿意)：
         <br>➜ 新增項目【1.本次活動滿意度】，屬性是【線性刻度】，最左是【非常不滿意】，最右是【非常滿意】
+      </span>
         <br><a href="pic/p26.png" target="_blank">示意圖2</a>，
         <a href="pic/p27.png" target="_blank">示意圖3</a>，
-
-        <br>※製作單選題(下拉選單)：
+        <br>
+        <br><span class="red">※(3).製作單選題(下拉選單)：
         <br>➜ 新增項目【2.伙食滿意度】，屬性是【下拉選單】，【非常不滿意～非常滿意】
+      </span>
         <br><a href="pic/p28.png" target="_blank">示意圖4</a>，
         <a href="pic/p29.png" target="_blank">示意圖5</a>，
 
-
-        <br>※製作單選題(radio圓形選擇按鈕)：
+        <br>
+        <br><span class="red">※(4).製作單選題(radio圓形選擇按鈕)：
         <br>➜ 新增項目【3.場地滿意度】，屬性是【選擇題】，【非常不滿意～非常滿意】
+      </span>
         <br><a href="pic/p30.png" target="_blank">示意圖6</a>，
         <a href="pic/p31.png" target="_blank">示意圖7</a>，        
 
         <br>
-        <br>※製作【4.多題組型單選題】(列是題目，欄是選項)：
+        <br><span class="red">※(5).製作【4.多題組型單選題】(列是題目，欄是選項)：
         <br>➜ 適用時機：多題都是5點量表
         <br>➜ 新增項目【4.綜合滿意度】，屬性是【單選方格】，【非常不滿意～非常滿意】
+      </span>
         <br>➜ 注意：列是題目，欄是選項
+      
         <br><a href="pic/p32.png" target="_blank">示意圖8</a>，
         <a href="pic/p33.png" target="_blank">示意圖9</a>，    
 
         <br>
-        <br>※(2).右側menu選【新增標題】：二，個人資料
+        <br><span class="red">※(6).右側menu選【新增標題】：二，個人資料
         <br>※製作【5.姓名】項目
+      </span>
         <a href="pic/p34.png" target="_blank">示意圖10</a>，
 
         <br>※製作【6.生日】項目
@@ -608,25 +723,32 @@ mark.pink {
 
         
       </p>
+      <hr>
       <br>
       <p style="text-indent: 60px;"><a href="https://forms.gle/PdyyogyR6aSPa2fF7" target="_blank">24-2-產品興趣意向調查(複選)【成果demo】</a>
-        <br>※輸入問卷標題後【06產品興趣意向調查(複選)】，再點按檔案名稱
+        <br>※(1).輸入問卷標題後【<span class="red">06產品興趣意向調查(複選)</span>】，再點按檔案名稱
+        
         <br>※設定欄位預設都是【必填】，且【所有人都可以瀏覽】
         <br>
-        <br>※(1).右側menu選【新增標題】：一，客戶意向調查
-        <br>※製作複選題目：
+        <br>※(2).右側menu選【新增標題】：<span class="red">一，客戶意向調查</span>
+        <br>
+        <br><span class="red">※(3).製作複選題目：
         <br>➜ 新增項目【1.對本公司感興趣的產品】，屬性是【核取方塊】
         <br>➜ 筆電，桌機，鍵盤，滑鼠，螢幕
-        <br>※製作【多題組型複選題】(列是題目，欄是選項)：
+      </span>
+        <br>
+        <br><span class="red">※(4).製作【多題組型複選題】(列是題目，欄是選項)：
         <br>➜ 新增項目【2.品牌喜好傾向調查】，屬性是【核取方塊格】
+      </span>
         <br>➜ 注意：列是題目，欄是選項
         <br>➜ 筆電，桌機，螢幕
         <br>➜ 華碩，宏基，HP，聯想
+      
         <br><a href="pic/p37.png" target="_blank">示意圖1</a>，
 
         <br>
-        <br>※(2).右側menu選【新增標題】：二，個人資料調查
-
+        <br><span class="red">※(6).右側menu選【新增標題】：二，個人資料調查
+        </span>
         <br>※製作【3.姓名】項目
 
         <br>※製作【4.能夠參加本公司活動的日期】項目➜選擇【日期】屬性
@@ -650,28 +772,33 @@ mark.pink {
     <div class="card card-body">
       <p style="text-indent: 60px;">新增Goolge 表單【是否參加本週日的聚餐？】</p>
       <p style="text-indent: 60px;"><a href="https://forms.gle/pmsGZxdRK3ZUrzAXA" target="_blank">25-1-是否參加本週日的聚餐【成果demo】</a>
-        <br>※輸入問卷標題後【07是否參加本週日的聚餐？】，再點按檔案名稱
+        <br>※輸入問卷標題後【<span class="red">07是否參加本週日的聚餐？</span>】，再點按檔案名稱
         <br>※設定欄位預設都是【必填】，且【所有人都可以瀏覽】
         <br>
-        <br>※(1).新增2個欄位【姓名，是否參加本週日的聚餐？】，都是必填。
+        <br>※(1).<span class="red">新增2個欄位【姓名，是否參加本週日的聚餐？】</span>，都是必填。
         <br>➜【是否參加本週日的聚餐？】：是，否<br>
         <a href="pic/p39.png" target="_blank">示意圖1</a>，
         <br>
-        <br>※(2).如何收集使用者的email？
+        <br>※(2).<span class="red">如何收集使用者的email？
         <br>➜修改上方【設定】➜設定➜【回覆】➜【收集電子郵件地址】➜由作答者手動輸入<br>
+      </span>
         <a href="pic/p40.png" target="_blank">示意圖2</a>，
         <a href="pic/p41.png" target="_blank">示意圖3</a>，
         <br>
-        <br>※(3).如何傳送表單回覆副本給作答者？（user會收到email告知他已經填寫問卷了）
-        <br>➜修改上方【設定】➜設定➜【回覆】➜【傳送表單回覆副本給作答者】➜由作答者手動輸入<br>
+        <br>※(3).<span class="red">如何傳送表單回覆副本給作答者？（user會收到email告知他已經填寫問卷了）
+        <br>➜修改上方【設定】➜設定➜【回覆】➜【傳送表單回覆副本給作答者】➜一律<br>
+      </span>
         <a href="pic/p42.png" target="_blank">示意圖4</a>，
         <br>
-        <br>※(4).如何才能讓user填寫完後，若要修改問卷的選擇內容？（user打開email即可修改問卷）
-        <br>➜修改上方【設定】➜設定➜【回覆】➜【允許編輯回覆】➜打開<br>
+        <br>※(4).<span class="red">如何才能讓user填寫完後，若要修改問卷的選擇內容？（user打開email即可修改問卷）</span>
+        <br>➜修改上方【設定】➜設定➜<span class="red">【回覆】➜【允許編輯回覆】➜打開</span><br>
+       
         <a href="pic/p43.png" target="_blank">示意圖5</a>，
         <br>
-        <br>※(5).如何設定user填寫完所看到的訊息？
-        <br>➜修改上方【設定】➜設定➜【簡報】➜【確認訊息】➜編輯➜已經收到答案，謝謝你的填寫<br>
+        <br>※(5).<span class="red">
+          如何設定user填寫完所看到的訊息？</span>
+        <br>➜修改上方【設定】➜設定➜<span class="red">【簡報】➜【確認訊息】➜編輯➜已經收到答案，謝謝你的填寫</span><br>
+              </span>
         <a href="pic/p44.png" target="_blank">示意圖5，</a>
         <a href="pic/p45.png" target="_blank">示意圖6，</a>
         <a href="pic/p46.png" target="_blank">示意圖7，</a>
@@ -732,7 +859,8 @@ mark.pink {
         <br><a href="pic/p61.png" target="_blank">示意圖11</a>，
         <br><a href="pic/p62.png" target="_blank">示意圖12</a>，
         <br>
-        <br>※(6).如何自行設定標題圖片：到canva網站
+        <br>※(6).如何自行設定標題圖片：
+        <a href="https://www.canva.com/zh_tw/" target="_blank">到canva網站</a>
         <br>➜注意：註冊者後，付費圖片有1個月的免費使用權，其它圖片則都是免費的        
         <br>左邊選擇【範本】➜上方輸入搜尋關鍵字：【google表單】
         <br>➜選擇1個圖片範本➜要選擇免費的範本（沒有皇冠 Pro的圖片）
@@ -1113,8 +1241,8 @@ mark.pink {
 
 
 
-  <p><a class="font-weight-bold" >【三，實作：傳統量化分析方法：SPSS】</a></p>
-  <p><a class="font-weight-bold" >【3-1，SPSS輸入數據的各種方法】</a></p>
+  <p id="main3"><a class="font-weight-bold" >【三，實作：傳統量化分析方法：SPSS】</a></p>
+  <p id="main3-1"><a class="font-weight-bold" >【3-1，SPSS輸入數據的各種方法】</a></p>
 
   <p style="text-indent: 50px;">
     <a class="text-danger" data-bs-toggle="collapse" href="#collapseExample-30" role="button" aria-expanded="false" aria-controls="collapseExample-30">
@@ -1131,8 +1259,8 @@ mark.pink {
         <br>
         <br>※(2). 要如何使用北科軟體雲？（2種方法：使用客戶端界面，或使用網頁）
         <br>【步驟1】：
-        　<br>◉【使用客戶端界面】：下載 VMware Horizen Client 並安裝（設定新增伺服器 「vdesk.ntut.edu.tw」）
-        　<br>◉【使用網頁】：或使用瀏覽器進入 vdesk.ntut.edu.tw
+        　<br>◉【使用客戶端界面】：下載 VMware Horizen Client 並安裝（設定新增伺服器 「<span class="purple">vdesk.ntut.edu.tw</span>」）
+        　<br>◉【使用網頁】：或使用瀏覽器進入 <span class="purple">vdesk.ntut.edu.tw</span>
         <br>【步驟2】：
         　<br>◉登入校園入口網站帳號密碼
         　<br>◉選擇要使用的軟體或桌面
@@ -1173,7 +1301,7 @@ mark.pink {
   <div class="collapse" id="collapseExample-31-1">
     <div class="card card-body">
       <p style="text-indent: 60px;">
-        ※(1).<a href="picSpss/02-夏令營.pdf" target="_blank">下載或開啟【夏令營青少年的個資pdf檔案】</a>
+        ※(1).<a href="picSpss/02-夏令營.xlsx" target="_blank">下載或開啟【夏令營青少年的個資pdf檔案】</a>
         <br>
         <br>※(2). 把數據用Gemini/ChatGPT 4o來辨識，並取得表格資料，然後輸入到SPSS
         <br>※(3). 登入北科大軟體雲的SPSS軟體畫面
@@ -1398,11 +1526,11 @@ mark.pink {
   </div> 
 
 
-  <p><a class="font-weight-bold" >【3-2，SPSS繪製圖表的各種方法】</a></p>
+  <p id="main3-2"><a class="font-weight-bold" >【3-2，SPSS繪製圖表的各種方法】</a></p>
 
   <p style="text-indent: 50px;">
     <a class="text-danger" data-bs-toggle="collapse" href="#collapseExample-32-1" role="button" aria-expanded="false" aria-controls="collapseExample-32-1">
-      chp32-1.繪製3D長條圖，且標註【計數，百分比，x軸的類別文字】
+      chp32-1.繪製【服務年資】的3D長條圖，且標註【計數，百分比，x軸的類別文字】
     </a>
   </p>
   <div class="collapse" id="collapseExample-32-1">
@@ -1486,91 +1614,6 @@ mark.pink {
   </div> 
 
 
-
-  <p style="text-indent: 50px;">
-    <a class="text-danger" data-bs-toggle="collapse" href="#collapseExample-32-1" role="button" aria-expanded="false" aria-controls="collapseExample-32-1">
-      chp32-1.繪製【服務年資】的3D長條圖，且標註【計數，百分比，x軸的類別文字】
-    </a>
-  </p>
-  <div class="collapse" id="collapseExample-32-1">
-    <div class="card card-body">
-      <p style="text-indent: 60px;">
-        ※(1).【成果Demo】：繪製【服務年資】的長條圖：
-        <br>
-        <img src="picSpss/p072.png">
-        <br><a href="picSpss/p073.png" target="_blank">陰影長條圖成果，示意圖</a>，
-        <br><a href="picSpss/p071.png" target="_blank">平面長條圖成果，示意圖</a>，
-        <br>
-        <br>※(2).<a href="picSpss/32-1-教師幸福感問卷調查_1.xlsx" target="_blank">下載問卷調查資料：教師幸福感指數調查</a>
-          <br>※上傳【32-1-教師幸福感問卷調查_1.xlsx】，到北科大軟體雲的windows電腦的F:\硬碟
-          <br>※【問卷調查題目】：國小教師職場生活感受調查
-          <br>........
-          <br>※【性別】：1男，2女
-          <br>※【擔任職務】：1x科任未兼任行政，2x教師兼組長，3x級任未兼任行政，4教師兼主任
-          <br>※【服務地區】：1北區，2中區，3南區，4東區
-          <br>※【服務年資】：1：5年以下，2：6-10年，3：11-15年，4：16-20年，5：21-25年，6：26年以上
-          <br>........
-          <br>※貳：教師職場靈性量表：
-          <br>※A1-【我覺得自己是學校的一份子】：5非常符合，4大部分符合，3一半符合，2少部分符合，1非常不符合
-          <br>........          
-          <br>........
-          <br>※叁：教師幸福感量表：
-          <br>※B1-【回想我的工作生涯，我滿意自己的工作表現】：5非常符合，4大部分符合，3一半符合，2少部分符合，1非常不符合
-          <br>........
-          <br>........
-          
-          <br>
-          <br>※(3).用北科大軟體雲的SPSS讀入【32-1-教師幸福感問卷調查_1.xlsx】檔案
-          <br><a href="picSpss/p056.png" target="_blank">讀入問卷檔案，示意圖1</a>，
-          <br>
-          <br>※(4).【繪圖長條圖】：服務年資的頻數分析分佈圖
-          <br>➜上方【分析】➜【敘述統計】➜【次數分配表】
-          <br><a href="picSpss/p057.png" target="_blank">次數分配表，示意圖1</a>，
-          <a href="picSpss/p058.png" target="_blank">選擇服務年資-圖表，示意圖1</a>，
-          <a href="picSpss/p059.png" target="_blank">服務年資柱狀圖，示意圖1</a>，
-          <br>
-          <br>※(5).【在長條圖上，加註『數字，百分比』】：
-          <br>➜快速點按2下【長條圖】，才能編輯圖表➜開啟【圖表編輯器】
-          <br><a href="picSpss/p060.png" target="_blank">圖表編輯器，示意圖1</a>，
-          
-          <br>➜點按任何一條【柱狀圖】➜滑鼠右鍵➜【顯示資料標籤】
-          <br><a href="picSpss/p061.png" target="_blank">選擇『顯示資料標籤』，示意圖</a>，
-          <br><a href="picSpss/p062.png" target="_blank">加上2個參數『計數，百分比』，示意圖</a>，
-          <br><a href="picSpss/p063.png" target="_blank">顯示『計數，百分比』柱狀圖，示意圖</a>，
-          <br>
-          <br>※(6).【顯示3D長條圖，或是陰影長條圖】：
-          <br>➜在【圖表編輯器】➜點按任何一條【柱狀圖】➜滑鼠右鍵➜【內容視窗】
-          <br><a href="picSpss/p064.png" target="_blank">長條圖右鍵的內容視窗，示意圖1</a>，
-          <br>➜選擇【深度與角度】➜勾選【3D】➜套用
-          <br><a href="picSpss/p065.png" target="_blank">勾選3D長條圖，示意圖</a>，        
-          <br><a href="picSpss/p066.png" target="_blank">3D長條圖成果，示意圖</a>，
-          <br>
-          <br>➜選擇【深度與角度】➜勾選【陰影】➜套用
-          <br><a href="picSpss/p067.png" target="_blank">陰影長條圖成果，示意圖</a>，
-          <br>
-          <br>※(7).【如何把x軸的5點量表(1～5)數字，轉成代表意義的文字】：
-          <br>➜【服務年資】：1：5年以下，2：6-10年，3：11-15年，4：16-20年，5：21-25年，6：26年以上
-          <br>➜在【圖表編輯器】➜點按任何一條【柱狀圖】➜滑鼠右鍵➜【內容視窗】➜【種類】
-          <br><a href="picSpss/p068.png" target="_blank">長條圖的種類，示意圖</a>，
-
-          <br>➜回到資料工作表區，在【變數視圖】➜點按【服務年資】這一列➜點按【值】這一欄
-          <br>➜【值】➜1
-          <br>➜【標籤】➜5年以下
-          <br>➜【新增】
-          <br>......
-          <br>➜新增全部的【服務年資】：1：5年以下，2：6-10年，3：11-15年，4：16-20年，5：21-25年，6：26年以上
-          <br><a href="picSpss/p069.png" target="_blank">服務年資類的【值】欄新增標籤，示意圖</a>，
-          <br><a href="picSpss/p070.png" target="_blank">全部的【值：標籤】，示意圖</a>，
-          <br>➜重新繪圖
-          <br><a href="picSpss/p071.png" target="_blank">平面長條圖，示意圖</a>，
-          <br><a href="picSpss/p072.png" target="_blank">3D長條圖，示意圖</a>，
-          <br><a href="picSpss/p073.png" target="_blank">陰影長條圖，示意圖</a>，
-
-      </p>
-
-    
-    </div>
-  </div> 
 
 
 
@@ -1735,8 +1778,6 @@ mark.pink {
       <p style="text-indent: 60px;">
         ※(1).【成果Demo】：繪製【服務地區】的頻數分析線形圖，共有3種方法都可以做出：
         <br><img src="picSpss/p100.png">
-        <br><img src="picSpss/p101.png">
-        <br><img src="picSpss/p105.png">
         <br>
         <br>※(2).【觀念】：常用的3種畫圖方式
         <br>※<span class="red">第1種【單一變數的頻數分佈圖】：次數分配表（都是探討單一變數）</span>
@@ -1793,22 +1834,7 @@ mark.pink {
           <br><a href="picSpss/p098.png" target="_blank">『顯示網格，數字標記，顯示數字』，示意圖</a>，
           <br><a href="picSpss/p099.png" target="_blank">設定【線條】【樣式】為虛線，示意圖</a>，
           <br><a href="picSpss/p100.png" target="_blank">成果『顯示網格，數字標記，顯示數字』，示意圖</a>，
-          <br>
-          <br>※(10).方法2：繪製【服務地區】的頻數分析【長條圖】：
-          <br>➜上方【分析】➜【敘述統計】➜【次數分配表】➜【圖表】選擇【長條圖】
-          <br>➜增加註記【計數，百分比】
-          <br>➜修改顯示為【3D】
-          <br><a href="picSpss/p101.png" target="_blank">【服務地區】的頻數分析【長條圖】</a>，
-          <br>
-          <br>※(11).方法3：繪製【服務地區】的頻數分析【長條圖】：
-          <br>➜上方【圖形】➜【舊式對話框➜圖表：長條圖
-          <br><a href="picSpss/p102.png" target="_blank">指定長條圖，示意圖</a>，
-          <a href="picSpss/103.png" target="_blank">觀察值群組摘要，示意圖</a>，
-          <br>➜設定【觀察值群組摘要】
-          <br>【種類軸】➜【服務地區】（單一變數的頻數分析，是類別資料）
-          <br><a href="picSpss/p104.png" target="_blank">設定『服務地區』的長條圖</a>，
-          <br><a href="picSpss/p105.png" target="_blank">成果『服務地區』的長條圖</a>，
-
+          
       </p>
 
     
@@ -1910,7 +1936,7 @@ mark.pink {
           <br><a href="picSpss/p056.png" target="_blank">讀入問卷檔案，示意圖1</a>，
           <br>
           <br>※(5).【如何把x軸的5點量表(1～5)數字，轉成代表意義的文字】：
-          <br>※【性別，擔任職務】：1x科任政，2x組長，3x級任，4主任
+          <br>※【性別，擔任職務】：1x科任，2x組長，3x級任，4主任
           <br>➜回到資料工作表區，在【變數視圖】➜點按【性別，擔任職務】這一列➜點按【值】這一欄
           <br>......
           <br>
@@ -1963,7 +1989,7 @@ mark.pink {
           <br><a href="picSpss/p056.png" target="_blank">讀入問卷檔案，示意圖1</a>，
           <br>
           <br>※(5).【如何把x軸的5點量表(1～5)數字，轉成代表意義的文字】：
-          <br>※【性別，擔任職務】：1x科任政，2x組長，3x級任，4主任
+          <br>※【性別，擔任職務】：1x科任，2x組長，3x級任，4主任
           <br>➜回到資料工作表區，在【變數視圖】➜點按【性別，擔任職務】這一列➜點按【值】這一欄
           <br>......
           <br>
@@ -1986,8 +2012,8 @@ mark.pink {
   </div> 
 
 
-
-  <p><a class="font-weight-bold" >【3-3-A，報表分析(1)：線上多層分析處理過程(OLAP)】</a></p>
+  <p id="main3-3"><a class="font-weight-bold" >【3-3，報表分析】</a></p>
+  <p id="main3-3-a"><a class="font-weight-bold" >【3-3-A，報表分析(1)：線上多層分析處理過程(OLAP, Online Analytical Processing)】</a></p>
 
 
   <p style="text-indent: 50px;">
@@ -2014,10 +2040,10 @@ mark.pink {
         <br>※<span class="red">第4種：根據使用者自訂的格式印出報表</span>
         <br>
         <br>※(4).【觀念】：【報表分析Report】，包括以下4種功能：
-        <br>※<span class="red">第1種【多層分群分析處理，OLAP】</span>
+        <br>※<span class="red">第1種【多層分群分析處理，OLAP,  Online Analytical Processing】</span>
         <br>※<span class="red">第2種【觀測值摘要分析處理，Case Summary】</span>
         <br>※<span class="red">第3種【報表的橫列摘要，Report Summary in Rows】</span>
-        <br>※<span class="red">第4種【報表的直欄摘要，Report Summary in Columns】</span>
+        <br>※<span class="red">第4種【報表的直欄摘要，Report Summary in Columns】➔➔➔先從這邊開始學起</span>
         <br>
         <br>※(5).【觀念】：【描述統計Descriptive Statistics】，包括以下5種功能：
         <br>※<span class="red">第1種【次數分配表，頻數分析，Frequencies】</span>
@@ -2025,6 +2051,17 @@ mark.pink {
         <br>※<span class="red">第3種【預檢資料，Explore】</span>
         <br>※<span class="red">第4種【交叉表分析，Cross tables】</span>
         <br>※<span class="red">第5種【相對比分析，Ratio】</span>
+        <br>
+        <br>※(6).【說明】：多層分析處理過程（OLAP）
+        <br>※<span class="purple">定義：OLAP（Online Analytical Processing）是用於多維數據分析的一種方法，通常用於探索和分析多層次的資料集。它允許用戶從不同的角度來檢視和總結數據，例如按地區、時間、產品等多個維度來查看數據的變化。</span>
+        <br>※<span class="purple">用途：主要用於多維數據的快速彙總和分類分析。用戶可以在SPSS中以交叉表格的形式查看資料，根據不同的維度進行切片和鑽取（如按年度、區域、性別等）。這種方式有助於揭示數據中的隱含模式或趨勢。</span>
+        <br>※<span class="purple">重點：OLAP強調多層次、多維度的分析，目的是能夠從不同角度深入探索數據的內在規律和特徵。</span>
+        <br>
+        <br>※(7).【比較】：多層分析處理過程（OLAP），列/欄的報告摘要，觀察值摘要
+        <br>三者的主要區別：
+        <br>※A-多層分析處理過程（OLAP）：<span class="purple">側重於多維度、多層次的資料探索和彙總，通常用於交互式的數據分析和挖掘。</span>
+        <br>※B-列/欄的報告摘要：<span class="purple">專注於對變數的分類匯總，根據列或欄顯示各類別的統計結果，適合呈現單一維度或交叉表格的總結。</span>
+        <br>※C-觀察值摘要（Cases Summary）：<span class="purple">主要針對每個個案的統計描述，提供數據集的樣本分佈和缺失情況的總覽。</span>
         
         <br>
         <br>※(3).<a href="picSpss/32-1-教師幸福感問卷調查_1.xlsx" target="_blank">下載問卷調查資料：教師幸福感指數調查</a>
@@ -2041,7 +2078,7 @@ mark.pink {
           <br>
           <br>※(6).建立【多層分群分析處理，OLAP】
           <br>➜上方【分析】➜【報告】➜【OLAP資料方塊]
-          <br><a href="picSpss/p1114.png" target="_blank">示意圖</a>，
+          <br><a href="picSpss/p114.png" target="_blank">示意圖</a>，
           <br>➜設定【摘要變數，目標y=f(x)】➜【整體幸福感】
           <br>➜設定【分組變數，x，分群，groupby】➜【性別】
           <a href="picSpss/p115.png" target="_blank">設定分群變數x，目標求值y，示意圖</a>，
@@ -2097,10 +2134,10 @@ mark.pink {
         <br>※<span class="red">第4種：根據使用者自訂的格式印出報表</span>
         <br>
         <br>※(4).【觀念】：【報表分析Report】，包括以下4種功能：
-        <br>※<span class="red">第1種【多層分群分析處理，OLAP】</span>
-        <br>※<span class="red">第2種【觀測值摘要分析處理，Case Summary】</span>
-        <br>※<span class="red">第3種【報表的橫列摘要，Report Summary in Rows】</span>
-        <br>※<span class="red">第4種【報表的直欄摘要，Report Summary in Columns】</span>
+        <br>※<span class="red">第1種【多層分群分析處理，OLAP,  Online Analytical Processing】➔step2</span>
+        <br>※<span class="red">第2種【觀測值摘要分析處理，Case Summary】➔step3</span>
+        <br>※<span class="red">第3種【報表的橫列摘要，Report Summary in Rows】➔step4</span>
+        <br>※<span class="red">第4種【報表的直欄摘要，Report Summary in Columns】➔➔➔step1:先從這邊開始學起</span>
         <br>
         <br>※(5).【觀念】：【描述統計Descriptive Statistics】，包括以下5種功能：
         <br>※<span class="red">第1種【次數分配表，頻數分析，Frequencies】</span>
@@ -2110,6 +2147,7 @@ mark.pink {
         <br>※<span class="red">第5種【相對比分析，Ratio】</span>
         
         <br>
+        <hr>
         <br>※(3).<a href="picSpss/32-1-教師幸福感問卷調查_1.xlsx" target="_blank">下載問卷調查資料：教師幸福感指數調查</a>
           <br>※上傳【32-1-教師幸福感問卷調查_1.xlsx】，到北科大軟體雲的windows電腦的F:\硬碟
           <br>※【問卷調查題目】：國小教師職場生活感受調查
@@ -2133,14 +2171,14 @@ mark.pink {
           <a href="picSpss/p128.png" target="_blank">設定【統計計量數】，示意圖</a>，
           <br>➜設定【標題】➜【國小教師(性別，服務地區)的整體幸福感分析】
           <br><a href="picSpss/p119.png" target="_blank">點按【標題】按鈕，示意圖</a>，
-          <a href="picSpss/p129.png" target="_blank">設定標題文字，示意圖</a>，
+          <a href="picSpss/p129.png" target="_blank">設定標題文字，示意圖</a>
           <br>
           <br>※(7).建立【多層多維度分析】➜【總計，男/北區，男/東區】
           <br>➜先在【性別：總計-報表表格】的空白處➜滑鼠右鍵➜【複製】➜貼在下方
           <br>複製第1個表格，貼到之後</a>，
           <br>➜double click【總計】➜選擇【男】
           <br>➜double click【總計】➜選擇【北區】
-          <br><a href="picSpss/p130.png" target="_blank">分三層【男/北區，男/東區】的統計分析，示意圖</a>，
+          <br><a href="picSpss/p130.png" target="_blank">分三層【男/北區，男/東區】的統計分析，示意圖</a>
           <br>
           <br>※(8).建立【北區/東區的『差異性』分析】
           <br>※【服務地區】：1北區，2中區，3南區，4東區
@@ -2150,8 +2188,8 @@ mark.pink {
           <br>➜【種類】➜輸入【1】（1北區）
           <br>➜【減種類】➜輸入【4】（4東區）
           <br>➜把2個變數➜移動到【配對】➜(1-4)default
-          <br><a href="picSpss/p131.png" target="_blank">設定參數：北區/東區的『差異性』分析，示意圖</a>，
-          <br><a href="picSpss/p132.png" target="_blank">北區/東區的『差異性』分析，示意圖</a>，
+          <br><a href="picSpss/p131.png" target="_blank">設定參數：北區/東區的『差異性』分析，示意圖</a>
+          <br><a href="picSpss/p132.png" target="_blank">北區/東區的『差異性』分析，示意圖</a>
 
           <br>
           <br>※(9).分析【男老師，(北區-東區)差異的%是多少？】
@@ -2159,8 +2197,11 @@ mark.pink {
           <br>複製第1個表格，貼到之後</a>，
           <br>➜double click【總計】➜選擇【男】
           <br>➜double click【總計】➜選擇【北區】
-          <br><a href="picSpss/p133.png" target="_blank">男老師，在(北區-東區)差異%分析，示意圖</a>，
+          <br><a href="picSpss/p133.png" target="_blank">男老師，在(北區-東區)差異%分析，示意圖</a>
           <br>分析【男老師，(北區-東區)差異的%是多少？】 = 11.6%
+          <br>
+          <br><a href="https://docs.google.com/document/d/1csJe2qLH9uyoKyqv3dPsmY9lsLB-_qzf/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">33-5.word分析報告</a>
+          <br>  
       </p>
 
     
@@ -2169,12 +2210,12 @@ mark.pink {
 
 
   
-  <p><a class="font-weight-bold" >【3-3-B，報表分析(2，3)：列/欄的報告摘要】</a></p>
+  <p id="main3-3-b"><a class="font-weight-bold" >【3-3-B，報表分析(2，3)：列/欄的報告摘要】</a></p>
 
 
   <p style="text-indent: 50px;">
     <a class="text-danger" data-bs-toggle="collapse" href="#collapseExample-33-3" role="button" aria-expanded="false" aria-controls="collapseExample-33-3">
-      chp33-3.分析【國小兒童身高】的【列的報告摘要】
+      chp33-3.分析【國小兒童(男女 vs 身高)】的【列的報告摘要】
     </a>
   </p>
   <div class="collapse" id="collapseExample-33-3">
@@ -2190,12 +2231,31 @@ mark.pink {
 
         <br>
         <br>※(3).【觀念】：【報表分析Report】，包括以下4種功能：
-        <br>※<span class="red">第1種【多層分群分析處理，OLAP】</span>
-        <br>※<span class="red">第2種【觀測值摘要分析處理，Case Summary】</span>
-        <br>※<span class="red">第3種【報表的橫列摘要，Report Summary in Rows】</span>
-        <br>※<span class="red">第4種【報表的直欄摘要，Report Summary in Columns】</span>
+        <br>※<span class="red">第1種【多層分群分析處理，OLAP,  Online Analytical Processing】➔step2</span>
+        <br>※<span class="red">第2種【觀測值摘要分析處理，Case Summary】➔step3</span>
+        <br>※<span class="red">第3種【報表的橫列摘要，Report Summary in Rows】➔step4</span>
+        <br>※<span class="red">第4種【報表的直欄摘要，Report Summary in Columns】➔➔➔step1:先從這邊開始學起</span>
+        
+        <br>
+        <br>※(4).【比較】：【報表的橫列摘要 vs 報表的直欄摘要】：
+        <br>4-1-【列欄的報告摘要】：
+        <br>※<span class="purple">雙變數交叉分析</span>：此報告摘要會同時考慮列變數與欄變數，即同時對兩個變數進行分類和匯總，通常用於交叉表分析。它展示的是列與欄交互後的數據分佈情況，如不同組合的頻次、百分比等。
+        <br>※<span class="red">用途：適合於分析兩個變數之間的關係，幫助了解不同變數組合下數據的分佈狀況。</span>
+        <br>※<span class="red">例如，分析性別和年齡組別對購買行為的影響時，可以同時顯示這兩個變數的匯總結果。</span>
+        <br>※<span class="red">展示形式：這類報告摘要通常會以交叉表的形式呈現數據，數據的匯總依賴於列與欄的交互。</span>
+        <br>
+        <br>4-2-【欄的報告摘要】：
+        <br>※<span class="purple">單變數匯總</span>：此報告摘要僅針對欄變數進行匯總，展示的是該變數單一維度下的數據總結。它不會考慮其他變數（如列變數）的分類結果。
+        <br>※<span class="red">用途：適合於單變數的描述性統計分析，</span>
+        <br>※<span class="red">例如：計算某個變數的頻次分佈或均值。這種報告通常用於簡單的匯總分析，不涉及多變數的交互。</span>
+        <br>※<span class="red">展示形式：結果以單列方式呈現</span>，顯示該欄變數的統計信息，數據呈現較為簡單明瞭。
+        <br>
+        <br>(5). 具體應用情境的差異：
+        <br>※<span class="red">列欄的報告摘要：適合複雜的多變數分析場景，當您需要觀察兩個變數之間的關係時（如交叉分析），這種報告提供了更全面的數據視角。</span>
+        <br>※<span class="red">欄的報告摘要：更適合單變數的簡單數據總結，當您只關心某一變數的統計描述時，使用這種報告更加直觀。</span>
 
         <br>
+        <hr>
         <br>※(4).<a href="picSpss/33-3-國小兒童身高.zip" target="_blank">下載問卷調查資料：國小兒童身高調查</a>
         <br>※上傳【33-3-國小兒童身高.sav】，到北科大軟體雲的windows電腦的F:\硬碟
         <br>
@@ -2241,7 +2301,7 @@ mark.pink {
 
   <p style="text-indent: 50px;">
     <a class="text-danger" data-bs-toggle="collapse" href="#collapseExample-33-4" role="button" aria-expanded="false" aria-controls="collapseExample-33-4">
-      chp33-4.分析【國小兒童身高】的【欄位的報告摘要】
+      chp33-4.分析【國小兒童(男女 vs 身高)】的【欄位的報告摘要】
     </a>
   </p>
   <div class="collapse" id="collapseExample-33-4">
@@ -2256,12 +2316,30 @@ mark.pink {
 
         <br>
         <br>※(3).【觀念】：【報表分析Report】，包括以下4種功能：
-        <br>※<span class="red">第1種【多層分群分析處理，OLAP】</span>
-        <br>※<span class="red">第2種【觀測值摘要分析處理，Case Summary】</span>
-        <br>※<span class="red">第3種【報表的橫列摘要，Report Summary in Rows】</span>
-        <br>※<span class="red">第4種【報表的直欄摘要，Report Summary in Columns】</span>
+        <br>※<span class="red">第1種【多層分群分析處理，OLAP,  Online Analytical Processing】➔step2</span>
+        <br>※<span class="red">第2種【觀測值摘要分析處理，Case Summary】➔step3</span>
+        <br>※<span class="red">第3種【報表的橫列摘要，Report Summary in Rows】➔step4</span>
+        <br>※<span class="red">第4種【報表的直欄摘要，Report Summary in Columns】➔➔➔step1:先從這邊開始學起</span>
+        <br>
+        <br>※(4).【比較】：【報表的橫列摘要 vs 報表的直欄摘要】：
+        <br>4-1-【列欄的報告摘要】：
+        <br>※<span class="purple">雙變數交叉分析</span>：此報告摘要會同時考慮列變數與欄變數，即同時對兩個變數進行分類和匯總，通常用於交叉表分析。它展示的是列與欄交互後的數據分佈情況，如不同組合的頻次、百分比等。
+        <br>※<span class="red">用途：適合於分析兩個變數之間的關係，幫助了解不同變數組合下數據的分佈狀況。</span>
+        <br>※<span class="red">例如，分析性別和年齡組別對購買行為的影響時，可以同時顯示這兩個變數的匯總結果。</span>
+        <br>※<span class="red">展示形式：這類報告摘要通常會以交叉表的形式呈現數據，數據的匯總依賴於列與欄的交互。</span>
+        <br>
+        <br>4-2-【欄的報告摘要】：
+        <br>※<span class="purple">單變數匯總</span>：此報告摘要僅針對欄變數進行匯總，展示的是該變數單一維度下的數據總結。它不會考慮其他變數（如列變數）的分類結果。
+        <br>※<span class="red">用途：適合於單變數的描述性統計分析，</span>
+        <br>※<span class="red">例如：計算某個變數的頻次分佈或均值。這種報告通常用於簡單的匯總分析，不涉及多變數的交互。</span>
+        <br>※<span class="red">展示形式：結果以單列方式呈現</span>，顯示該欄變數的統計信息，數據呈現較為簡單明瞭。
+        <br>
+        <br>(5). 具體應用情境的差異：
+        <br>※<span class="red">列欄的報告摘要：適合複雜的多變數分析場景，當您需要觀察兩個變數之間的關係時（如交叉分析），這種報告提供了更全面的數據視角。</span>
+        <br>※<span class="red">欄的報告摘要：更適合單變數的簡單數據總結，當您只關心某一變數的統計描述時，使用這種報告更加直觀。</span>
 
         <br>
+        <hr>
         <br>※(4).<a href="picSpss/33-3-國小兒童身高.zip" target="_blank">下載問卷調查資料：國小兒童身高調查</a>
         <br>※上傳【33-3-國小兒童身高.sav】，到北科大軟體雲的windows電腦的F:\硬碟
         <br>
@@ -2299,12 +2377,12 @@ mark.pink {
 
 
   
-  <p><a class="font-weight-bold" >【3-3-C，報表分析(4)：觀察值摘要 Cases Summary】</a></p>
+  <p id="main3-3-c"><a class="font-weight-bold" >【3-3-C，報表分析(4)：觀察值摘要 Cases Summary】</a></p>
 
 
   <p style="text-indent: 50px;">
     <a class="text-danger" data-bs-toggle="collapse" href="#collapseExample-33-5" role="button" aria-expanded="false" aria-controls="collapseExample-33-5">
-      chp33-5.分析【國小兒童身高】的【觀察值摘要 Cases Summary】
+      chp33-5.分析【國小兒童(男女 vs 身高)】的【觀察值摘要 Cases Summary】
     </a>
   </p>
   <div class="collapse" id="collapseExample-33-5">
@@ -2313,18 +2391,34 @@ mark.pink {
         ※(1).【成果Demo】：國小兒童身高的統計分析(分群不同性別，不同班級)：
         <br><img src="picSpss/p159.png">
         <br>
+        <br><a href="https://docs.google.com/document/d/1csJe2qLH9uyoKyqv3dPsmY9lsLB-_qzf/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">33-5.word分析報告</a>
+        <br>  
+        <br>
         <br>※(2).【觀念】：SPSS的基礎統計分析，包括2種功能：
         <br>※<span class="red">第1種【報表分析Report】：在【分析】➜【報告】</span>
         <br>※<span class="red">第2種【描述統計Descriptive Statistics】：在【分析】➜【描述統計】</span>
 
         <br>
         <br>※(3).【觀念】：【報表分析Report】，包括以下4種功能：
-        <br>※<span class="red">第1種【多層分群分析處理，OLAP】</span>
-        <br>※<span class="red">第2種【觀測值摘要分析處理，Case Summary】</span>
-        <br>※<span class="red">第3種【報表的橫列摘要，Report Summary in Rows】</span>
-        <br>※<span class="red">第4種【報表的直欄摘要，Report Summary in Columns】</span>
+        <br>※<span class="red">第1種【多層分群分析處理，OLAP,  Online Analytical Processing】➔step2</span>
+        <br>※<span class="red">第2種【觀測值摘要分析處理，Case Summary】➔step3</span>
+        <br>※<span class="red">第3種【報表的橫列摘要，Report Summary in Rows】➔step4</span>
+        <br>※<span class="red">第4種【報表的直欄摘要，Report Summary in Columns】➔➔➔step1:先從這邊開始學起</span>
 
         <br>
+        <br>※(4).【說明】：觀察值摘要（Cases Summary）
+        <br>※定義：觀察值摘要是針對數據集中各個個案（即觀察值、樣本）的基本統計彙總。它提供的是數據集中<span class="purple">每個觀察值的數量、缺失值以及基本的統計描述（如均值、標準差、最小值、最大值等）。</span>
+        <br>※用途：這種摘要主要用於描述數據集中個案的整體概況，幫助使用者了解樣本的分佈情況，是否有缺失資料，以及每個觀察值在數據集中的特性。這類摘要報告可以協助檢查數據品質和整體分佈情況。</span>
+        <br>※重點：觀察值摘要關注於個別樣本的統計總結，展示的是個案層級的資料而非分類或多維分析結果。</span>
+        <br>
+        <br>※(5).<span class="purple">【本題重點】：雖然使用觀察值摘要（Cases Summary），但卻要取消【觀察觀察值摘要】</span>
+        <br>※原因：<span class="red">因為若是打勾要顯示【觀察值摘要】，會導致每個分群變數，都會顯示她的【觀察值的摘要】：統計描述（如均值、標準差、最小值、最大值等）。</span>
+        <br><img src="picSpss/p33-5-01.png">
+        <br>※所以：我們要取消勾選【觀察值摘要】，才不會顯示的太複雜
+        <br><img src="picSpss/p156.png">
+        
+        <br>
+        <hr>
         <br>※(4).<a href="picSpss/33-3-國小兒童身高.zip" target="_blank">下載問卷調查資料：國小兒童身高調查</a>
         <br>※上傳【33-3-國小兒童身高.sav】，到北科大軟體雲的windows電腦的F:\硬碟
         <br>
@@ -2336,14 +2430,15 @@ mark.pink {
         <br>➜設定【變數，目標y=f(x)】➜【身高】
         <br>➜設定【分組變數，x，分群，groupby】➜【性別，班級】
         <br>➜取消勾選【顯示觀測值】        
-        <a href="picSpss/p156.png" target="_blank">設定變數x，分組變數y，示意圖</a>，
+        <a href="picSpss/p156.png" target="_blank">設定變數x，分組變數y，示意圖</a>
         <br>➜設定【統計資料】➜【觀察值數目(樣本數N)，平均值，中位數】
-        <br><a href="picSpss/p157.png" target="_blank">設定【統計資料，統計計量數】，示意圖</a>，
+        <br><a href="picSpss/p157.png" target="_blank">設定【統計資料，統計計量數】，示意圖</a>
         <br>➜設定【選項(標題)】➜【標題】➜【國小兒童身高的分群分析】
-        <br><a href="picSpss/p158.png" target="_blank">設定標題，示意圖</a>，
+        <br><a href="picSpss/p158.png" target="_blank">設定標題，示意圖</a>
+        <br><a href="picSpss/p159.png" target="_blank">報表結果，示意圖</a>
         <br>
-        <br><a href="picSpss/p159.png" target="_blank">報表結果，示意圖</a>，
-
+        <br><a href="https://docs.google.com/document/d/1csJe2qLH9uyoKyqv3dPsmY9lsLB-_qzf/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">33-5.word分析報告</a>
+        <br>  
       </p>
 
     
@@ -2351,8 +2446,8 @@ mark.pink {
   </div> 
 
 
-
-  <p><a class="font-weight-bold" >【3-4-A，描述統計(1)：次數分配表(Frequencies，頻數分析)】</a></p>
+  <p id="main3-4"><a class="font-weight-bold" >【3-4，描述統計】</a></p>
+  <p id="main3-4-a"><a class="font-weight-bold" >【3-4-A，描述統計(1)：次數分配表(Frequencies，頻數分析)】</a></p>
 
 
   <p style="text-indent: 50px;">
@@ -2440,7 +2535,7 @@ mark.pink {
         <br>
         <br>※(6).建立【次數分配表(Frequencies，頻數分析)】
         <br>➜上方【分析】➜【描述統計】➜【次數分配表(Frequencies，頻數分析)】
-        <br>➜設定【變數，目標y=f(x)】➜【舒張壓】  
+        <br>➜設定【變數，目標y=f(x)】➜【血清蛋白】  
         <br>➜設定【統計資料】➜勾選【大部分參數】
         <br>➜設定【圖表】➜【直方圖】➜並勾選【在直方圖上顯示常態曲線】
         <br>
@@ -2456,7 +2551,7 @@ mark.pink {
 
 
   
-  <p><a class="font-weight-bold" >【3-4-B-描述統計(2)：描述統計(描述統計分析，Descriptive Statistics)】</a></p>
+  <p id="main3-4-b"><a class="font-weight-bold" >【3-4-B，描述統計(2)：描述統計(描述統計分析，Descriptive Statistics)】</a></p>
 
 
   <p style="text-indent: 50px;">
@@ -2496,7 +2591,6 @@ mark.pink {
         <a href="picSpss/p172.png" target="_blank">設定變數English，示意圖</a>，
         <br>➜設定【選項】➜勾選【大部分參數】
         <br><a href="picSpss/p173.png" target="_blank">設定【統計計量數】，示意圖</a>，
-        <br>➜設定【圖表】➜【直方圖】➜並勾選【在直方圖上顯示常態曲線】
         <br>
         <br><a href="picSpss/p174.png" target="_blank">報表結果，示意圖</a>，
 
@@ -2558,7 +2652,7 @@ mark.pink {
   
 
   
-  <p><a class="font-weight-bold" >【3-4-C-描述統計(3)：預檢資料，Explore】</a></p>
+  <p id="main3-4-c"><a class="font-weight-bold" >【3-4-C，描述統計(3)：預檢資料，Explore】</a></p>
 
 
   <p style="text-indent: 50px;">
@@ -2570,12 +2664,27 @@ mark.pink {
     <div class="card card-body">
       <p style="text-indent: 60px;">
         ※(1).【成果Demo】：【一週飲料花費】的【預檢資料，Explore】：
+        <br>
+        <br><a href="https://docs.google.com/document/d/1DlN1HV-d6Lupzf2QGxagNI7a8RTly6h9/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">34-5-題目</a>
+        <br><a href="https://docs.google.com/document/d/1WV-iulEihabgktZrYz2PCx1Y-5tiv7Ux/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">34-5-分析報告</a>
+
+        <br>
         <br><img src="picSpss/p181.png">
         <br><img src="picSpss/p182.png">
         <br><img src="picSpss/p183.png">
+        <br>
+
+        <br>(2).【觀念】：什麼是Explore「預檢」功能：
+        ※<span class="red">
+          探索Explore 功能通常用於進行資料的「預檢」，即在進行更複雜的統計分析之前，了解資料的基本性質和特徵。例如：數據的分佈是否有異常點？
+        </span>
+        <br>一般常用的「預檢」有以下幾個功能：
+        <br>※<span class="red">第1種【做分組分群統計摘要分析+圖形分組比對】</span>
+        <br>※<span class="red">第2種【看出數據是否有異常值】</span>
+        <br>※<span class="red">第3種【看出數據是否符合常態分佈】</span>
 
         <br>
-        <br>※(2).【觀念】：SPSS的基礎統計分析，包括2種功能：
+        <br>※(3).【觀念】：SPSS的基礎統計分析，包括2種功能：
         <br>※<span class="red">第1種【報表分析Report】：在【分析】➜【報告】</span>
         <br>※<span class="red">第2種【描述統計Descriptive Statistics】：在【分析】➜【描述統計】</span>
 
@@ -2624,7 +2733,7 @@ mark.pink {
 
   
 
-  <p style="text-indent: 50px;">
+  <!--p style="text-indent: 50px;">
     <a class="text-danger" data-bs-toggle="collapse" href="#collapseExample-34-6" role="button" aria-expanded="false" aria-controls="collapseExample-34-6">
       chp34-6.分析【一週飲料花費】的【觀測值摘要】：做分組分群統計摘要分析
     </a>
@@ -2781,7 +2890,7 @@ mark.pink {
 
     
     </div>
-  </div> 
+  </div--> 
 
   
   
@@ -2796,6 +2905,10 @@ mark.pink {
     <div class="card card-body">
       <p style="text-indent: 60px;">
         ※(1).【成果Demo】：【一週飲料花費】的【預檢資料，Explor】：看數據是否有【異常值】
+        <br>
+        <br><a href="https://docs.google.com/document/d/1cVmDU8Qaag7bhKp4-BZEqfij969vT1E_/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">34-9-題目</a>
+        <br><a href="https://docs.google.com/document/d/16rxGMCt30jLmh82Xe3XopPexILdA2U3M/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">34-9-分析報告</a>
+
         <br>➜方法：看盒形圖，若有外圍的o數據，即是有異常值(太大，太小值數據)
         <br><img src="picSpss/p188.png">
         <br>
@@ -2864,6 +2977,10 @@ mark.pink {
     <div class="card card-body">
       <p style="text-indent: 60px;">
         ※(1).【成果Demo】：【120名男子血壓分佈】的【預檢資料，Explor】：看數據是否有【異常值】
+        <br>
+        <br><a href="https://docs.google.com/document/d/1cbSpNrRlxiqWIaroYyVXtH1ViWvHrsDI/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">34-10-題目</a>
+        <br><a href="https://docs.google.com/document/d/1pJu2cOceQ100TDAsTxyAa1LgE1cUCLs7/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">34-10-分析報告</a>
+
         <br>➜方法：看盒形圖，若沒有外圍的o數據，即表示沒有異常值(太大，太小值數據)
         <br><img src="picSpss/p196.png">
         <br>
@@ -2912,7 +3029,7 @@ mark.pink {
     </div>
   </div> 
        
-  <p><a class="font-weight-bold" >☎【3-5-交叉分析表，Cross Tables】：探討2個類別變數之間的關聯性(重要)</a></p>
+  <p id="main3-5"><a class="font-weight-bold" >☎【3-5，交叉分析表，Cross Tables】：探討2個類別變數之間的關聯性(重要)</a></p>
 
   <p style="text-indent: 50px;">
     <a class="text-danger" data-bs-toggle="collapse" href="#collapseExample-35-1" role="button" aria-expanded="false" aria-controls="collapseExample-35-1">
@@ -2928,6 +3045,7 @@ mark.pink {
         <br><img src="picSpss/p202.png">
         <br><img src="picSpss/p204.png">
         <br><img src="picSpss/p206.png">
+        
 
         <br>
         <br>※(2).【觀念】：SPSS的基礎統計分析，包括2種功能：
@@ -3011,7 +3129,8 @@ mark.pink {
         <br><img src="picSpss/p216.png">
         <br><img src="picSpss/p217.png">
         <br><img src="picSpss/p218.png">
-       
+        <br><a href="https://docs.google.com/document/d/1NhW9cRSCbcMQ9Bs1Y2bfxAsaLKDs8Cb8/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">35-2.word分析報告【偏好原因-品牌】</a>
+
         <br>
         <br>※(2).☎【非常重要】：【交叉表分析，Cross tables】的功用：
         <br>※<span class="red">【功用】：探討2個【類別變數】之間的【關聯性】</span>
@@ -3058,7 +3177,6 @@ mark.pink {
         <br>➜上方【分析】➜【描述統計】➜【交叉表分析，Cross tables】
         <br>➜設定【列】➜【偏好原因】  
         <br>➜設定【欄】➜【品牌】
-        <br>➜設定【資料格】➜勾選【計數】的【觀測值】
         <br>➜設定【資料格】➜勾選【百分比】的【欄位】
         <br><a href="picSpss/p216.png" target="_blank">成果【『偏好原因vs品牌』的百分比比較】，示意圖</a>，
         <br>
@@ -3076,6 +3194,12 @@ mark.pink {
         <br>
         <br>※(9).再將3個【Excel】表格，複製到Word寫分析報告
 
+
+        <br>
+        <br><a href="https://docs.google.com/document/d/1NhW9cRSCbcMQ9Bs1Y2bfxAsaLKDs8Cb8/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">35-2.word分析報告【偏好原因-品牌】</a>
+        <br>
+        <br><a href="https://docs.google.com/document/d/1snynx5GMC6bZXvDJXfLOjgdd-NjVjgjA/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">35-4.Final完整的word分析報告【偏好原因-品牌】</a>
+        <br>
       </p>
 
     
@@ -3096,7 +3220,8 @@ mark.pink {
         <br><img src="picSpss/p220.png">
         <br><img src="picSpss/p222.png">
         <br><img src="picSpss/p224.png">
-       
+        <br><a href="https://docs.google.com/document/d/19JtARbuVS3Oyg_JSHk8MMmnBdguJFH_Y/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">35-3.word分析報告【偏好原因-品牌】</a>
+
         <br>
         <br>※(2).☎【非常重要】：【交叉表分析，Cross tables】的功用：
         <br>※<span class="red">【功用】：探討2個【類別變數】之間的【關聯性】</span>
@@ -3149,6 +3274,12 @@ mark.pink {
         <br>➜【結論3】：SPSS的交叉分析表之對應長條圖，只能夠顯示【計數值】，無法顯示【百分比】
         
 
+        <br>
+        <br><a href="https://docs.google.com/document/d/19JtARbuVS3Oyg_JSHk8MMmnBdguJFH_Y/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">35-3.word分析報告【偏好原因-品牌】</a>
+        <br>
+        <br><a href="https://docs.google.com/document/d/1snynx5GMC6bZXvDJXfLOjgdd-NjVjgjA/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">35-4.Final完整的word分析報告【偏好原因-品牌】</a>
+        <br>
+
 
       </p>
 
@@ -3169,9 +3300,11 @@ mark.pink {
       <p style="text-indent: 60px;">
         ※(1).【成果Demo】：客戶【每個月到星巴克的次數】與【性別】是否存在顯著關聯？】
         <br><img src="picSpss/p226.png">
-        <br>➜<span class="red" style="font-size: 30px;">
+        <br>➜<span class="red">
           【靈魂拷問，大哉問】：客戶【每個月到星巴克的次數】與【性別】是否存在顯著關聯？】
         </span>
+        <br><a href="https://docs.google.com/document/d/15atlniCRFJNGzsda7CwgQQ6d-zNTpXgX/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">35-4.Final完整的word分析報告</a>
+
        
         <br>
         <br>※(2).☎【非常重要】：【交叉表分析，Cross tables】的功用：
@@ -3181,7 +3314,22 @@ mark.pink {
         <br>※<span class="red">【範例3】：行銷研究，探討【教育程度】對【不同品牌】的偏好</span>
         <br>※<span class="red">【範例4】：行銷研究，探討【喜好不同品牌】對【購買原因】的關聯度</span>
         <br>
-        <br>※(3).<a href="picSpss/35-4-星巴克每個月消費次數與零用金關聯.zip" target="_blank">下載問卷調查資料：星巴克每個月消費次數與零用金關聯</a>
+        <br>※(3-1).<a href="picSpss/35-4-星巴克每個月消費次數與零用金關聯.zip" target="_blank">下載問卷調查資料：星巴克每個月消費次數與零用金關聯(sav)</a>
+        <br>※(3-2).<a href="picSpss/35-4-星巴克每個月消費次數與零用金關聯.xlsx" target="_blank">下載問卷調查資料：星巴克每個月消費次數與零用金關聯(excel)</a>
+        <br>
+        <hr>
+        <p style="text-indent: 50px;" class="red">(4).上傳中文字型檔到ChatGPT 4o</p>
+        <p style="padding-left: 100px;">  
+         ◉<a href="https://drive.google.com/file/d/1u5WAQVsIpTHrsjBWiDHmUK-YdrKWwxNE/view?usp=sharing" target="_blank">【思源黑體字型NotoSansTC-Medium】下載連結（推薦下載這個，比較簡單）</a><br>
+         ◉【說明字型檔 NotoSansTC-Medium】：這是Noto Sans TC 字型家族中9種裡面的其中一個字重。
+         <br>Noto Sans TC 是由 Google 和 Adobe 聯手推出的免費開源字型，專為繁體中文設計。
+         <br>◉【注意】：下載字型檔是壓縮檔，要先解壓縮
+         <br>◉<a href="pic/DA-07.PNG" target="_blank">【上傳 NotoSansTC-Medium 到ChatGPT 4o】</a><br>
+         ◉【在ChatGPT輸入】：<span class="red">請用這個中文字型檔案，幫我重新顯示圖表，其中的中文字都用這個中文字型檔案來呈現</span><br>
+         ◉<a href="pic/DA-08.PNG" target="_blank">【圖表結果：柱狀圖可以顯示中文字型】</a><br>
+        </p>
+        <hr>
+        
         <br>※上傳【35-4-星巴克每個月消費次數與零用金關聯.sav】，到北科大軟體雲的windows電腦的F:\硬碟
         <br>
         <br>※(4).用北科大軟體雲的SPSS讀入【35-4-星巴克每個月消費次數與零用金關聯.sav】檔案
@@ -3197,16 +3345,16 @@ mark.pink {
         <br>➜設定【欄】➜【性別】
         <br>➜設定【資料格】➜【計數】➜【觀察值】
         <br><img src="picSpss/p226.png">
-        <br>➜<span class="red" style="font-size: 30px;">
+        <br>➜<span class="red">
           【靈魂拷問，大哉問】：客戶【每個月到星巴克的次數】與【性別】是否存在顯著關聯？】
         </span>
-        <br>➜<span class="red" style="font-size: 30px;">
+        <br>➜<span class="red">
           【重要觀念】：探討問卷調查中2個變數之間是否有關聯，無法目測，必須用【獨立性檢定Test】，檢定後才能知道是否2個變數有關聯？
         </span>
-        <br><span style="font-size: 30px;">
+        <br><span>
           ➜【觀察1】：若是觀察樣本數(觀察值)，似乎男生的次數少，女生的次數多，似乎【次數】與【性別】有關聯
         </span>
-        <br><span class="red" style="font-size: 30px;">
+        <br><span class="red">
           ➜【請問】：你能夠說【到星巴克購買的女生購買次數多於男生嗎？<br>
           你能夠說【購買次數與性別有關聯嗎】？
           </span>
@@ -3214,29 +3362,29 @@ mark.pink {
         <br>※(6).比較【交叉分析表：次數 vs 性別】以【百分比】方式表示
         <br><a href="picSpss/p227.png" target="_blank">設定【百分比-欄】，示意圖</a>，
         <br><img src="picSpss/p228.png">
-        <br><span style="font-size: 30px;">
+        <br><span>
         ➜【發現】：不論購買次數【低，或高】，男女的比例，都是差不多
       </span>
-      <br>➜<span class="red" style="font-size: 30px;">
+      <br>➜<span class="red">
           【結論】：探討問卷調查中2個變數之間是否有關聯，不能夠用樣本數(計數)來比較，必須轉換成【百分比】才準確
           </span>
         <br>
         <br>※(7).【統計檢定】：判斷2個變數是否有關聯
-        <br>➜<span class="red" style="font-size: 30px;">
+        <br>➜<span class="red">
           【請問】：探討這個問卷的2個變數【次數，性別】的關聯性，必須採用哪一種檢定？
           </span>
-          <br>➜<span class="red" style="font-size: 30px;">
+          <br>➜<span class="red">
             ☎【判斷檢定方法的最重要圖表】：
           </span>
           <br>➜根據（x, y）對應的不同格式，可以選擇不同的統計檢定方法：
           <br><img src="picSpss/p229.png">
           <br><img src="picSpss/p230.png">
-        <br>➜<span class="red" style="font-size: 30px;">
+        <br>➜<span class="red">
           【重要觀念】：若2個變數都是【類別，種類】變數(性別，地區，是否有房子，是否有汽車)，
           <br>即【類別 vs 類別】變數的關聯性，
           則必須用【卡方檢定】
           </span>
-          <br>➜<span class="red" style="font-size: 30px;">
+          <br>➜<span class="red">
             ☎【結論】：【類別 vs 類別】用【卡方檢定（χ² test）】
             </span>
 
@@ -3247,18 +3395,18 @@ mark.pink {
         <br><img src="picSpss/p232.png">
         <br>➜【注意1】：查表【卡方分配表】的【顯著水準➜一般都是以 α = 0.05來設定】
         <br>
-        <span class="red" style="font-size: 30px;">
+        <span class="red">
           ➜【判別技巧1】：若是我們計算出來的【漸近顯著性】值＜ 0.05，表示【2個變數之間呈現顯著性關聯】
         <br>➜【判別技巧2】：若是我們計算出來的【漸近顯著性】值＞ 0.05，表示【2個變數之間沒有關聯】
       </span>
         <br>➜【注意2】：df是自由度，degree of freedom
         <br>➜【注意3】：數值 = 卡方值 = χ² = Chi-Square
-        <br><span class="red" style="font-size: 30px;">
+        <br><span class="red">
           ➜☎【結論】：計算結果的【漸近顯著性】值 = 0.905 ＞ 0.05，表示【2個變數之間沒有關聯】
           <br>➜☎【表示】：受訪者到星巴克的【次數高低】，並不會因為【性別】而有顯著差異
           </span>  
           <br>
-          <br><span class="red" style="font-size: 30px;">※(9).【判斷2個變數之間是否有顯著關聯】的【統計檢定】步驟：
+          <br><span class="red">※(9).【判斷2個變數之間是否有顯著關聯】的【統計檢定】步驟：
           <br>➜卡方獨立性檢定（Chi-Square Test of Independence）：適用於類別變數。
           <br>➜步驟1：設置2種假設：          
           <br>◉零假設（𝐻0）：兩個變數之間獨立（無顯著關聯）。
@@ -3268,13 +3416,78 @@ mark.pink {
           <br>➜步驟4：計算p值：根據卡方值和自由度，查找對應的p值。
           <br>➜步驟5：比較顯著水平：如果p值小於顯著水平（如0.05），則拒絕零假設，認為兩變數之間有顯著關聯。
         </span>
+
     </p>
 
-    
+
+
+
     </div>
   </div> 
 
+  <p style="text-indent: 50px;">
+    <a class="text-danger" data-bs-toggle="collapse" href="#collapseExample-35-4-2" role="button" aria-expanded="false" aria-controls="collapseExample-35-4-2">
+      ☎chp35-4-(2).【使用AI來做統計分析】：
+      客戶【每個月到星巴克的次數】與【性別】是否存在顯著關聯？】(重要)<br>
+    </a>
+  </p>
+  <div class="collapse" id="collapseExample-35-4-2">
+    <div class="card card-body">
+      <p style="text-indent: 60px;">
+        ※(1).【成果Demo】：客戶【每個月到星巴克的次數】與【性別】是否存在顯著關聯？】
+        <br><img src="picSpss/p226.png">
+        <br>➜<span class="red">
+          【靈魂拷問，大哉問】：客戶【每個月到星巴克的次數】與【性別】是否存在顯著關聯？】
+        </span>
+        <br>
+        <br><a href="https://docs.google.com/document/d/15atlniCRFJNGzsda7CwgQQ6d-zNTpXgX/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">35-4.Final完整的word分析報告</a>
 
+       
+        <br>
+        <br>※(3-1).<a href="picSpss/35-4-星巴克每個月消費次數與零用金關聯.zip" target="_blank">下載問卷調查資料：星巴克每個月消費次數與零用金關聯(sav)</a>
+        <br>※(3-2).<a href="picSpss/35-4-星巴克每個月消費次數與零用金關聯.xlsx" target="_blank">下載問卷調查資料：星巴克每個月消費次數與零用金關聯(excel)</a>
+        <br>
+        <br>※(4).上傳中文字型檔到ChatGPT 4o
+        <br>
+        ◉<a href="https://drive.google.com/file/d/1u5WAQVsIpTHrsjBWiDHmUK-YdrKWwxNE/view?usp=sharing" target="_blank">【思源黑體字型NotoSansTC-Medium】下載連結（推薦下載這個，比較簡單）</a><br>
+         ◉【說明字型檔 NotoSansTC-Medium】：這是Noto Sans TC 字型家族中9種裡面的其中一個字重。
+         <br>Noto Sans TC 是由 Google 和 Adobe 聯手推出的免費開源字型，專為繁體中文設計。
+         <br>◉【注意】：下載字型檔是壓縮檔，要先解壓縮
+         <br>◉<a href="pic/DA-07.PNG" target="_blank">【上傳 NotoSansTC-Medium 到ChatGPT 4o】</a><br>
+         ◉【在ChatGPT輸入】：<span class="red">請用這個中文字型檔案，幫我重新顯示圖表，其中的中文字都用這個中文字型檔案來呈現</span><br>
+         ◉<a href="pic/DA-08.PNG" target="_blank">【圖表結果：柱狀圖可以顯示中文字型】</a><br>
+             
+
+        <br>
+        <br>※(11).使用AI：Grok來分析數據（效果最好，最正確）
+        <br>注意：使用Grok做統計分析，畫圖的中文字型是可以顯示的
+        <br><a href="pic/p35-4-01.png" target="_blank">Grok分析圖1</a>，
+        <a href="pic/p35-4-02.png" target="_blank">圖2</a>，
+        <a href="pic/p35-4-03.png" target="_blank">圖3</a>，
+        <br><a href="pic/p35-4-04.png" target="_blank">圖4</a>，
+        <a href="pic/p35-4-05.png" target="_blank">圖5</a>，
+        <a href="pic/p35-4-06.png" target="_blank">圖6</a>，
+        <br><a href="pic/p35-4-07.png" target="_blank">圖7</a>，
+        <a href="pic/p35-4-08.png" target="_blank">圖8</a>，
+        <a href="pic/p35-4-09.png" target="_blank">圖9</a>，
+        <br><a href="pic/p35-4-10.png" target="_blank">圖10</a>，
+        <a href="pic/p35-4-11.png" target="_blank">圖11</a>，
+        <a href="pic/p35-4-12.png" target="_blank">圖12</a>，
+        <br>
+        <br>※(12).使用AI：ChatGPT來分析數據（卡方檢定正確，但是百分比的畫圖錯誤）
+        <br>注意：使用ChatGPT做統計分析，畫圖的中文字型是亂碼，必須先安裝中文字型
+        <br><a href="pic/p35-4-20.png" target="_blank">ChatGPT分析圖1</a>，
+        <a href="pic/p35-4-21.png" target="_blank">圖2</a>，
+        <a href="pic/p35-4-22.png" target="_blank">圖3</a>，
+        <a href="pic/p35-4-23.png" target="_blank">圖4</a>，
+
+    </p>
+
+
+
+
+    </div>
+  </div> 
       
 
   <p style="text-indent: 50px;">
@@ -3287,9 +3500,11 @@ mark.pink {
       <p style="text-indent: 60px;">
         ※(1).【成果Demo】：客戶【每個月到星巴克的次數】與【每月可支配的零用金】是否存在顯著關聯？
         <br><img src="picSpss/p233.png">
-        <br>➜<span class="red" style="font-size: 30px;">
+        <br>➜<span class="red">
           【請問】：客戶【每個月到星巴克的次數】與【可支配的零用金】是否存在顯著關聯？】
         </span>
+        <br>
+        <br><a href="https://docs.google.com/document/d/1slmzShbyYHgpwiA3LQDXbPYt-cc9-SzQ/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">35-5.Final完整的word分析報告</a>
        
         <br>
         <br>※(2).☎【非常重要】：【交叉表分析，Cross tables】的功用：
@@ -3298,8 +3513,23 @@ mark.pink {
         <br>※<span class="red">【範例2】：選舉時，探討【性別】對甲政黨【是否支持】</span>
         <br>※<span class="red">【範例3】：行銷研究，探討【教育程度】對【不同品牌】的偏好</span>
         <br>※<span class="red">【範例4】：行銷研究，探討【喜好不同品牌】對【購買原因】的關聯度</span>
+
         <br>
-        <br>※(3).<a href="picSpss/35-4-星巴克每個月消費次數與零用金關聯.zip" target="_blank">下載問卷調查資料：星巴克每個月消費次數與零用金關聯</a>
+        <br>※(3-1).<a href="picSpss/35-4-星巴克每個月消費次數與零用金關聯.zip" target="_blank">下載問卷調查資料：星巴克每個月消費次數與零用金關聯(sav)</a>
+        <br>※(3-2).<a href="picSpss/35-4-星巴克每個月消費次數與零用金關聯.xlsx" target="_blank">下載問卷調查資料：星巴克每個月消費次數與零用金關聯(excel)</a>
+<br>
+<hr>
+<p style="text-indent: 50px;" class="red">(4).上傳中文字型檔到ChatGPT 4o</p>
+<p style="padding-left: 100px;">  
+ ◉<a href="https://drive.google.com/file/d/1u5WAQVsIpTHrsjBWiDHmUK-YdrKWwxNE/view?usp=sharing" target="_blank">【思源黑體字型NotoSansTC-Medium】下載連結（推薦下載這個，比較簡單）</a><br>
+ ◉【說明字型檔 NotoSansTC-Medium】：這是Noto Sans TC 字型家族中9種裡面的其中一個字重。
+ <br>Noto Sans TC 是由 Google 和 Adobe 聯手推出的免費開源字型，專為繁體中文設計。
+ <br>◉【注意】：下載字型檔是壓縮檔，要先解壓縮
+ <br>◉<a href="pic/DA-07.PNG" target="_blank">【上傳 NotoSansTC-Medium 到ChatGPT 4o】</a><br>
+ ◉【在ChatGPT輸入】：<span class="red">請用這個中文字型檔案，幫我重新顯示圖表，其中的中文字都用這個中文字型檔案來呈現</span><br>
+ ◉<a href="pic/DA-08.PNG" target="_blank">【圖表結果：柱狀圖可以顯示中文字型】</a><br>
+</p>
+<hr>
         <br>※上傳【35-4-星巴克每個月消費次數與零用金關聯.sav】，到北科大軟體雲的windows電腦的F:\硬碟
         <br>
         <br>※(4).用北科大軟體雲的SPSS讀入【35-4-星巴克每個月消費次數與零用金關聯.sav】檔案
@@ -3321,7 +3551,7 @@ mark.pink {
         <br><span class="red">
           ➜已知【類別 vs 類別】：用【卡方檢定（χ² test）】
         </span>
-        <br><span class="red" style="font-size: 30px;">
+        <br><span class="red">
           ➜【疑問】：零用金是數值(10000)，不是類別，為什麼可以用【卡方檢定？】
         </span>
         <br>➜請說出你的答案？
@@ -3344,7 +3574,13 @@ mark.pink {
         <br>➜目測：每個月到星巴克最多者（大於10次），主要是零用金較多者(＞10000)
         <br>➜結論：每個月到星巴克的次數，的確與零用金的高低而有顯著差異
         <br><img src="picSpss/p235.png">
-
+        <br>
+        <br>※(9).如何繪圖（困難點：Y軸要顯示百分比）
+        <br><img src="pic/p35-01.png">
+        <br><img src="pic/p35-02.png">
+        <br>
+        <br><a href="https://docs.google.com/document/d/1slmzShbyYHgpwiA3LQDXbPYt-cc9-SzQ/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">35-5.Final完整的word分析報告</a>
+        <br>    
     </p>
 
     
@@ -3355,16 +3591,22 @@ mark.pink {
 
   <p style="text-indent: 50px;">
     <a class="text-danger" data-bs-toggle="collapse" href="#collapseExample-35-6" role="button" aria-expanded="false" aria-controls="collapseExample-35-6">
-      ☎chp35-6.卡方檢定必須要每個類別期望個數不小於5才有效：調查【男女】與【運動時間】是否存在顯著關聯？<br>
+      ☎chp35-6.【縮減組數】卡方檢定必須要每個類別期望個數不小於5才有效：調查【男女】與【運動時間】是否存在顯著關聯？<br>
     </a>
   </p>
   <div class="collapse" id="collapseExample-35-6">
     <div class="card card-body">
       <p style="text-indent: 60px;">
         ※(1).【成果Demo】：調查【男女】與【運動時間】是否存在顯著關聯？
+        <br>
+        <br><a href="https://docs.google.com/document/d/1p107Nozppfij_Mpr1iHovKumQF6U9CdI/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">35-6.Final完整的word分析報告</a>
+        <br><a href="https://drive.google.com/file/d/1vpH-ggyVD52B4sfFA1NtOfW3ctEcSw5S/view?usp=sharing" target="_blank">35-6.教學影片</a>
+       
+        
+        <br>
         <br><img src="picSpss/p236.png">
         <br><img src="picSpss/p237.png">
-        <br>➜<span class="red" style="font-size: 30px;">
+        <br>➜<span class="red">
           【請問】：請問【這個交叉分析表，與卡方檢定】有什麼問題？
           </span>
        
@@ -3401,11 +3643,11 @@ mark.pink {
                 
         <br>
         <br>※(7).【解決方法】：建立1個新欄位【時間分組】
-        <br>➜【時間分組】：運動時間分成幾類：1為＜=30，2為31～60次，3為61～90次，4為91～120次，5為＞=120分鐘
+        <br>➜【時間分組】：運動時間分成幾類：<span class="purple">1為＜=30次，2為31～60次，3為61～90次，4為91～120次，5為＞=120次</span>
         <br>➜新增【時間分組】➜上方menu【轉換】➜重新編碼成不同變數
         <br><a href="picSpss/p239.png" target="_blank">【轉換】➜重新編碼成不同變數，示意圖</a>，
         <br>➜設定【數值變數】➜【運動時間】
-        <br>➜設定【輸出變數】➜【時間分組】
+        <br>➜設定【輸出變數】➜【<span class="purple">時間分組</span>】
         <br><a href="picSpss/p240.png" target="_blank">設定【數值變數，輸出變數】，示意圖</a>，
         <br>➜設定【舊值與新值】
         <br>➜設定【新值】=【1】，【舊值】=【範圍】➜lowest 到值【30】
@@ -3416,7 +3658,7 @@ mark.pink {
         <br>➜設定【新值】=【4】，【舊值】=【範圍】➜【91】～【120】
         <br>➜設定【新值】=【5】，【舊值】=【範圍】➜higest 到值【121】
         <br><a href="picSpss/p243.png" target="_blank">設定【新值5 = 大於舊值121】，示意圖</a>，
-        <br>➜點按【變更】，才能點按【確定】
+        <br>➜<span class="red">點按【變更】，才能點按【確定】</span>
         <br><a href="picSpss/p244.png" target="_blank">點按【變更】，才能點按【確定】，示意圖</a>，
         <br><a href="picSpss/p245.png" target="_blank">結果，已經新增欄位【時間分組】，示意圖</a>，
                    
@@ -3453,9 +3695,35 @@ mark.pink {
     </div>
   </div> 
 
+  <p style="text-indent: 50px;">
+  <a class="text-danger" data-bs-toggle="collapse" href="#collapseExample-35-7" role="button" aria-expanded="false" aria-controls="collapseExample-35-7">
+    chp35-7.ChatGPT等AI的圖表顯示中文字，必須安裝中文字型檔
+  </a>
+</p>
+<div class="collapse" id="collapseExample-35-7">
+  <div class="card card-body">
+   <p style="text-indent: 50px;" class="red">(1).adobe中文字型檔：思源字型</p>
+   <p style="padding-left: 100px;">  
+    <a class="text-danger" href="https://drive.google.com/file/d/1u5WAQVsIpTHrsjBWiDHmUK-YdrKWwxNE/view?usp=sharing" target="_blank">
+      ◉【思源黑體字型NotoSansTC-Medium】下載連結
+    </a>
+  </p>
+
+  <br>
+  <p style="text-indent: 50px;" class="red">(2).阿里巴巴中文字型檔</p>
+  <p style="padding-left: 100px;">  
+   <a class="text-danger" href="https://drive.google.com/file/d/1xZLL83ClnAgCovm3hG5LnRHmMK8Od6lE/view?usp=sharing" target="_blank">
+    ◉【阿里巴巴字型Alibaba-PuHuiTi-Regular】下載連結
+   </a>
+ </p>
+
+
+
+  </div>
+</div>  
 
          
-  <p><a class="font-weight-bold" >【3-6-相對比分析，比例分析，Ratio】：探討2個類別變數對比(相除)的統計分析，探討2個變數對比的關聯性</a></p>
+  <p id="main3-6"><a class="font-weight-bold" >【3-6，相對比分析，比例分析，Ratio】：探討2個類別變數對比(相除)的統計分析，探討2個變數對比的關聯性</a></p>
 
   <p style="text-indent: 50px;">
     <a class="text-danger" data-bs-toggle="collapse" href="#collapseExample-36-1" role="button" aria-expanded="false" aria-controls="collapseExample-36-1">
@@ -3515,7 +3783,7 @@ mark.pink {
   </div> 
 
          
-  <p><a class="font-weight-bold" >【3-7-單一樣本t檢定（1個連續數值y）】：探討1個連續變數樣本平均值，與指定檢定值之間是否存在顯著差異</a></p>
+  <p id="main3-7"><a class="font-weight-bold" >【3-7，單一樣本t檢定（1個連續數值y）】：探討1個連續變數樣本平均值，與指定檢定值之間是否存在顯著差異</a></p>
 
     
 
@@ -3529,9 +3797,11 @@ mark.pink {
       <p style="text-indent: 60px;">
         ※(1).【成果Demo】：某校【大一新生體重數據】與【5年前大一平均體重65.6】相比，是否有顯著差異？
         <br><img src="picSpss/p258.png">
-       
+        <br>
+        <br><a href="https://docs.google.com/document/d/1gHCQ3FZD89hQhtnMdUubCE33Pyf5h3m1/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">37-1.題目</a>
+        <br><a href="https://docs.google.com/document/d/1oX9m-9-kIxgqd3DWy_qkN6RTTO-ANYMZ/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">37-1.word分析報告</a>
         <br>        
-        <br>➜<span class="red" style="font-size: 30px;">
+        <br>➜<span class="red">
           ☎※(2).【判斷檢定方法的最重要圖表】：
         </span>
         <br>
@@ -3539,7 +3809,65 @@ mark.pink {
         <br><img src="picSpss/p229.png">
         <br>➜若只有1個連續數值（y），則要選擇【單一樣本t檢定】方法
         <br>
-        <br>※(3).<a href="picSpss/37-1-大一新生體重數據.csv" target="_blank">下載問卷調查資料：大一新生體重數</a>
+        <br>※(3).問卷調查資料：大一新生體重數
+        <table border="1" width="30%">
+          <tr>
+              <th>編號</th>
+              <th>體重</th>
+          </tr>
+          <tr><td>1</td><td>80.3</td></tr>
+          <tr><td>2</td><td>70.27</td></tr>
+          <tr><td>3</td><td>74.53</td></tr>
+          <tr><td>4</td><td>63.81</td></tr>
+          <tr><td>5</td><td>61.06</td></tr>
+          <tr><td>6</td><td>60.14</td></tr>
+          <tr><td>7</td><td>74.32</td></tr>
+          <tr><td>8</td><td>66.21</td></tr>
+          <tr><td>9</td><td>66.57</td></tr>
+          <tr><td>10</td><td>70.35</td></tr>
+          <tr><td>11</td><td>68.39</td></tr>
+          <tr><td>12</td><td>78.02</td></tr>
+          <tr><td>13</td><td>72.93</td></tr>
+          <tr><td>14</td><td>68.22</td></tr>
+          <tr><td>15</td><td>70.59</td></tr>
+          <tr><td>16</td><td>66.78</td></tr>
+          <tr><td>17</td><td>78.32</td></tr>
+          <tr><td>18</td><td>65.82</td></tr>
+          <tr><td>19</td><td>69.63</td></tr>
+          <tr><td>20</td><td>61.05</td></tr>
+          <tr><td>21</td><td>48.55</td></tr>
+          <tr><td>22</td><td>72.14</td></tr>
+          <tr><td>23</td><td>63.69</td></tr>
+          <tr><td>24</td><td>61.87</td></tr>
+          <tr><td>25</td><td>84.02</td></tr>
+          <tr><td>26</td><td>56.63</td></tr>
+          <tr><td>27</td><td>67.66</td></tr>
+          <tr><td>28</td><td>65.95</td></tr>
+          <tr><td>29</td><td>78.6</td></tr>
+          <tr><td>30</td><td>68.14</td></tr>
+          <tr><td>31</td><td>68.47</td></tr>
+          <tr><td>32</td><td>70.11</td></tr>
+          <tr><td>33</td><td>60.8</td></tr>
+          <tr><td>34</td><td>52.76</td></tr>
+          <tr><td>35</td><td>64.77</td></tr>
+          <tr><td>36</td><td>68.48</td></tr>
+          <tr><td>37</td><td>76.38</td></tr>
+          <tr><td>38</td><td>76.17</td></tr>
+          <tr><td>39</td><td>64.48</td></tr>
+          <tr><td>40</td><td>65.1</td></tr>
+          <tr><td>41</td><td>59.62</td></tr>
+          <tr><td>42</td><td>56.88</td></tr>
+          <tr><td>43</td><td>54.78</td></tr>
+          <tr><td>44</td><td>81.68</td></tr>
+          <tr><td>45</td><td>63.58</td></tr>
+          <tr><td>46</td><td>64.11</td></tr>
+          <tr><td>47</td><td>58.11</td></tr>
+          <tr><td>48</td><td>73.05</td></tr>
+          <tr><td>49</td><td>55.46</td></tr>
+          <tr><td>50</td><td>65.76</td></tr>
+      </table>
+      
+        
         <br>
         <br>※(4).用北科大軟體雲的SPSS新增一個新的【SPSS】檔案
         <br>➜在【變數視圖】視窗➜建立2個欄位【編號，體重】
@@ -3557,18 +3885,18 @@ mark.pink {
         <br>➜設定【選項】➜【信賴區間百分比】= 95%
         <br><a href="picSpss/p257.png" target="_blank">點選【單一樣本t檢定】，示意圖</a>
         <br><img src="picSpss/p258.png">
-        <br><span style="font-size: 30px;">
+        <br><span>
           <br>➜【平均】：67.50似乎比5年前（65.6）還要高一些
           <br>➜【但是檢定後發現】：p= 0.095＞信賴水準0.05，所以不顯著（符合Ho虛無假設，2個變數沒有差異）
         
       </span>
-      <br>➜<span class="red" style="font-size: 30px;">
+      <br>➜<span class="red">
           【結論】：現在大一學生的體重與5年前學生體重相比，沒有顯著差別（差不多）
           </span>
         
           <br>
           <br>
-          <span class="red" style="font-size: 30px;">※(6).【單一樣本t檢定】步驟：
+          <span class="red">※(6).【單一樣本t檢定】步驟：
           <br>➜【單一樣本t檢定】：適用於單一連續數值變數。
           <br>➜步驟1：設置2種假設：          
           <br>◉零假設（𝐻0），又名虛無假設：兩個變數之間獨立（無顯著關聯，無顯著差異）。
@@ -3577,6 +3905,10 @@ mark.pink {
           <br>➜步驟3：計算p值：查找對應的p值。
           <br>➜步驟4：比較顯著水平：如果p值小於顯著水平（如0.05），則拒絕零假設，認為兩變數之間有顯著關聯。
         </span>
+
+        <br>
+        <br><a href="https://docs.google.com/document/d/1oX9m-9-kIxgqd3DWy_qkN6RTTO-ANYMZ/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">37-1.word分析報告</a>
+        <br>
     </p>
 
     
@@ -3595,9 +3927,13 @@ mark.pink {
       <p style="text-indent: 60px;">
         ※(1).【成果Demo】：【大學生每週運動時間】與【5年前平均70分鐘】相比，是否有今年已經明顯增加？(單尾檢定)？
         <br><img src="picSpss/p259.png">
-       
+        <br>
+        <br>
+        <br><a href="https://docs.google.com/document/d/1YLCHEt0ltY6MQBkELXt1Byele4ukhTmL/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">37-2.題目</a>
+        <br><a href="https://docs.google.com/document/d/1aRg5a56RZ81QxQv-jv-MSQ_0dcRufyaU/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">37-2.word分析報告</a>
         <br>        
-        <br>➜<span class="red" style="font-size: 30px;">
+     
+        <br>➜<span class="red">
           ☎※(2).【判斷檢定方法的最重要圖表】：
         </span>
         <br>
@@ -3605,7 +3941,9 @@ mark.pink {
         <br><img src="picSpss/p229.png">
         <br>➜若只有1個連續數值（y），則要選擇【單一樣本t檢定】方法
         <br>
-        <br>※(3).<a href="picSpss/37-2-大學生每週運動時間.csv" target="_blank">下載問卷調查資料：大學生每週運動時間</a>
+        <br>※(3).<a href="picSpss/37-2.-大學生每週運動時間.csv" target="_blank">下載問卷調查資料：大學生每週運動時間(csv)</a>
+        <br><a href="picSpss/37-2.-大學生每週運動時間.zip" target="_blank">下載問卷調查資料：大學生每週運動時間(sav)</a>
+        
         <br>※開啟【37-2-大學生每週運動時間.csv】，複製數據
         <br>
         <br>※(4).用北科大軟體雲的SPSS新增空白檔案，先在【變數視圖】視窗，建立2個欄位
@@ -3636,10 +3974,10 @@ mark.pink {
           <br>➜【平均】：83.87似乎比5年前（70）還要高一些
           <br>➜【但是檢定後發現】：p= 0.095＜信賴水準0.05，所以有顯著差異（H1對立假設：μ ＞70（大於70成立））
               </span>
-      <br>➜<span class="red" style="font-size: 30px;">
+      <br>➜<span class="red">
           【結論】：現在大一學生的運動時間與5年前學生相比，明顯增加
           </span>
-        
+
           <br>
           <br>
           <span>※(7).【單一樣本t檢定】步驟：
@@ -3650,6 +3988,47 @@ mark.pink {
           <br>➜步驟2：用公式計算t檢定值。
           <br>➜步驟3：計算p值：查找對應的p值。
           <br>➜步驟4：比較顯著水平：如果p值小於顯著水平（如0.05），則拒絕零假設，認為兩變數之間有顯著關聯。
+        </span>
+        <br>
+        <hr>
+        <span>※(8).如何決定使用【雙尾檢定，或單尾檢定】？
+          <h1>單尾與雙尾檢定的選擇</h1>
+          <p>在統計檢定中，單尾檢定與雙尾檢定的選擇取決於研究問題的<span class="highlight">假設方向性</span>。</p>
+          <hr>
+          <h2>1. 雙尾檢定（Two-tailed Test）的用途</h2>
+          <p>當研究問題探討<span class="highlight">是否有差異</span>，但不特別關注增加或減少的方向時，應使用雙尾檢定。</p>
+          <p><span class="highlight">理由：</span>我們關注的是<span class="highlight">任何方向</span>的變化（可能增加或減少），因此需檢查分布的兩端。</p>
+          <p><strong>例如：</strong>「與5年前相比，運動時間是否有差異？」這是一個雙尾檢定問題，因為我們不預設差異方向。</p>
+          <hr>
+          <h2>2. 單尾檢定（One-tailed Test）的用途</h2>
+          <p>當研究問題明確關注某一<span class="highlight">特定方向</span>的變化（如「增加」或「減少」）時，應使用單尾檢定。</p>
+          <p><span class="highlight">理由：</span>我們的關注點僅限於「運動時間是否增加」，不需要檢查是否減少。</p>
+          <p><strong>例如：</strong>「今年的運動時間是否明顯增加？」這是一個單尾檢定問題，因為我們只假設變化的方向是「增加」。</p>
+          <hr>
+          <h2>3. 為什麼題目問題影響檢定選擇？</h2>
+          <p><span class="highlight">統計檢定的方向性反映研究目標：</span></p>
+          <ul>
+              <li><strong>雙尾檢定：</strong>適用於探索性的問題，不設定方向。</li>
+              <li><strong>單尾檢定：</strong>適用於具體目標的問題，關注特定方向。</li>
+          </ul>
+          <hr>
+          <h2>4. 實例比較</h2>
+          <ul>
+              <li>「大學生運動時間是否有變化？」（雙尾）</li>
+              <li>「大學生運動時間是否比過去多？」（單尾：頂端）</li>
+              <li>「大學生運動時間是否比過去少？」（單尾：尾端）</li>
+
+          </ul>
+          <hr>
+          <p><span class="highlight"> 關鍵差異：</span></p>
+          <ul>
+              <li>雙尾檢定有更嚴格的標準，因為它同時檢查兩個方向。</li>
+              <li>單尾檢定對於特定方向【增加，或減少】的敏感性更高，但如果變化方向與假設相反，則無法檢測。</li>
+          </ul>
+          <hr>
+          <h2>5. 結論</h2>
+          <p>「<strong>是否有今年已經明顯增加？</strong>」，【增加】2字表示【頂端】，所以已明確指出感興趣的是「增加」，因此應採用<span class="highlight">單尾檢定</span>。</p>
+      
         </span>
     </p>
 
@@ -3669,11 +4048,15 @@ mark.pink {
       <p style="text-indent: 60px;">
         ※(1).【成果Demo】：某報紙宣稱【大學生每週飲料花費已經 ≥ 100元】，是否可以否定該宣稱（α ＜ 0.05）？
         <br><img src="picSpss/p262.png">
-        <br>➜<span class="red" style="font-size: 30px;">
+        <br>
+        <br><a href="https://docs.google.com/document/d/17p4NQxzK6XNRom1p3N1_7ySw-V5ht3a1/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">37-3.題目</a>
+        <br><a href="https://docs.google.com/document/d/1tLxGeMiMRm9afnvvYePffT5tvWZLJSRP/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">37-3.word分析報告</a>
+        <br>    
+        <br>➜<span class="red">
           ☎【請問】：這個是【雙尾檢定，還是右尾檢定，還是左尾檢定？】
         </span>       
         <br>        
-        <br>➜<span class="red" style="font-size: 30px;">
+        <br>➜<span class="red">
           ☎※(2).【判斷檢定方法的最重要圖表】：
         </span>
         <br>
@@ -3711,10 +4094,12 @@ mark.pink {
           <br>➜【平均】：83.23似乎比報紙宣稱（100）還要低很多，很明顯
           <br>➜【檢定後發現】：p= 0.02＜信賴水準0.05，所以符合對立假設（H1對立假設：μ ＞100（小於100成立））
               </span>
-      <br>➜<span class="red" style="font-size: 30px;">
+      <br>➜<span class="red">
           【結論】：現在大一學生的每週飲料花費，明顯小於100（報紙宣稱）
           </span>
-        
+          <br>
+          <br><a href="https://docs.google.com/document/d/1tLxGeMiMRm9afnvvYePffT5tvWZLJSRP/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">37-3-分析報告</a>
+
           <br>
           <br>
           <span>※(7).【單一樣本t檢定】步驟：
@@ -3733,7 +4118,7 @@ mark.pink {
   </div> 
 
 
-  <p><a class="font-weight-bold" >【3-8-獨立樣本t檢定（2類別x vs 連續數值y）】：檢定2個獨立樣本(2個選擇的種類)的總體平均數，是否存在顯著差異？</a></p>
+  <p id="main3-8"><a class="font-weight-bold" >【3-8，獨立樣本t檢定（2類別x vs 連續數值y）】：檢定2個獨立樣本(2個選擇的種類)的總體平均數，是否存在顯著差異？</a></p>
 
   
   <p style="text-indent: 50px;">
@@ -3746,14 +4131,19 @@ mark.pink {
       <p style="text-indent: 60px;">
         ※(1).【成果Demo】：判定【男女每週飲料花費】，【是否存在差異】？
         <br><img src="picSpss/p269.png">
-        <span class="red" style="font-size: 30px;">
+        <br>
+        <br><a href="https://docs.google.com/document/d/1BimxRE99GJ3wbV_7WDz2ovdsWmm5fXPl/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">38-1-題目</a>
+        <br><a href="https://docs.google.com/document/d/1p-6cmdx19jvhbQjJxXLGuEoOC3H4K03S/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">38-1-分析報告</a>
+
+        <br>
+        <span class="red">
           <br>➜☎【請問】：這樣子的數據，該用什麼【統計檢定】？
           <br>➜☎【請問】：這個是【雙尾檢定，還是右尾檢定，還是左尾檢定】？
           <br>➜☎【請問】：2個獨立樣本的總體平均數比較，是什麼意思？
 
         </span>       
         <br>        
-        <br>➜<span class="red" style="font-size: 30px;">
+        <br>➜<span class="red">
           ☎※(2).【判斷檢定方法的最重要圖表】：
         </span>
         <br>
@@ -3793,7 +4183,7 @@ mark.pink {
       
         </span>
         <br>
-        <br><span class="red" style="font-size: 30px;">
+        <br><span class="red">
           ※(7).【注意】：上面的檢定表，【要經過2階段檢定】
           <br>※(A-第1階段)：先看【變異數等式的Levene檢定】
           <br>➜判斷【顯著性是否＜0.05】：0.752＞0.05➜➜表示接受【2個母體變異數相等的假設】   
@@ -3802,7 +4192,7 @@ mark.pink {
         <br><img src="picSpss/p268.png">
 
         <br>
-        <br><span class="red" style="font-size: 30px;">
+        <br><span class="red">
           <br>※(B-第2階段)：再看【平均值等式的t檢定】
           <br>➜判斷【顯著性是否＜0.05】：0.190＞0.05➜➜表示接受【虛無假設H0，男生女生飲料花費：相同】➜第1列的值
           <br>➜【解釋：為什麼選擇0.190，而不是選0.206？】：這是因為階段1，已經證明，必須選擇【相等變異數】
@@ -3811,13 +4201,15 @@ mark.pink {
         </span>
         <br><img src="picSpss/p270.png">
 
-      <br>➜<span class="red" style="font-size: 30px;">
+      <br>➜<span class="red">
           【結論】：現在男女的每週飲料花費，明顯一樣，沒有差異
           </span>
-        
+          <br>
+          <br><a href="https://docs.google.com/document/d/1p-6cmdx19jvhbQjJxXLGuEoOC3H4K03S/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">38-1-分析報告</a>
+
           <br>
           <br>
-          <span>※(7).【獨立樣本t檢定】步驟：
+          <span>※(8).【獨立樣本t檢定】步驟：
           <br>➜【獨立樣本t檢定】：適用於2個類別母體的比較一個連續數值變數。
           <br>➜步驟1：設置2種假設：          
           <br>◉零假設（𝐻0），又名虛無假設：兩個變數之間獨立（無顯著關聯，無顯著差異）。
@@ -3830,6 +4222,35 @@ mark.pink {
           H1對立假設，
           <br>如果p值小於顯著水平（如0.05），則拒絕零假設，認為兩變數之間有顯著關聯。
         </span>
+        <br>
+        <hr>
+        <span class="purple">※(9).【獨立樣本t檢定】的重要進階心法：什麼是【右尾檢定，左尾檢定】？
+        <br>(A).心法1：右尾檢定，就是判斷是否第1個群組變數比較大？
+        <br>心法：左尾檢定，就是判斷是否第2個群組變數比較大？
+        <br><a href="picSpss/p450.png" target="_blank">右尾檢定，示意圖</a>，
+        <br><a href="picSpss/p451.png" target="_blank">左尾檢定，示意圖</a>，
+        <br><img src="picSpss/p260.png" width="40%">
+      </span>
+      <br>
+      <span class="purple">        
+        <br>※(B).心法2：什麼是【第1個群組變數】？
+        <br><img src="picSpss/p452.png" width="20%">
+      </span>
+      <br>
+      <span class="purple">        
+        <br>※(C).心法3：如何判斷【右尾檢定】的符合H1假設？
+        <br>如果 t值＞0，且p值（右尾）＜0.05，則拒絕𝐻0假設，接受𝐻1假設，表示「第一組的均值顯著大於第二組」
+        <br><a href="picSpss/p450.png" target="_blank">右尾檢定，示意圖</a>，
+        <br><img src="../GA/ABtest-pic/p47.png" width="50%">
+      </span>
+      <br>
+      <span class="purple">        
+        <br>※(D).心法4：如何判斷【左尾檢定】的符合H1假設？
+        <br>如果 t值＜0，且p值（左尾）＜0.05，則拒絕𝐻0假設，接受𝐻1假設，表示「第二組的均值顯著大於第一組」
+        <br><a href="picSpss/p451.png" target="_blank">左尾檢定，示意圖</a>，
+        <br><img src="../GA/ABtest-pic/p46.png" width="60%">
+
+      </span>
     </p>
 
     
@@ -3848,14 +4269,18 @@ mark.pink {
       <p style="text-indent: 60px;">
         ※(1).【成果Demo】：判定【男女每週運動時間】，【男生是否大過女生】？
         <br><img src="picSpss/p272.png">
-        <span class="red" style="font-size: 30px;">
+        <br>
+        <br><a href="https://docs.google.com/document/d/1F5paTkc1DaBhcEpChkIK_lsALXLo1nwe/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">38-2-題目</a>
+        <br><a href="https://docs.google.com/document/d/1iPksAseq28pNdPjqORFOgjLqAPhSudu6/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">38-2-分析報告</a>
+        <br>
+        <span class="red">
           <br>➜☎【請問】：這樣子的數據，該用什麼【統計檢定】？
           <br>➜☎【請問】：這個是【雙尾檢定，還是右尾檢定，還是左尾檢定】？
           <br>➜☎【請問】：2個獨立樣本的總體平均數比較，是什麼意思？
 
         </span>       
         <br>        
-        <br>➜<span class="red" style="font-size: 30px;">
+        <br>➜<span class="red">
           ☎※(2).【判斷檢定方法的最重要圖表】：
         </span>
         <br>
@@ -3891,7 +4316,7 @@ mark.pink {
           <br>➜單尾檢定（右尾）
 
         <br>
-        <br><span class="red" style="font-size: 30px;">
+        <br><span class="red">
           ※(7).【注意】：上面的檢定表，【要經過2階段檢定】
           <br>※(A-第1階段)：先看【變異數等式的Levene檢定】
           <br>➜判斷【顯著性是否＜0.05】：0.335＞0.05➜➜表示接受【2個母體變異數相等的假設】 ➜第1列的值  
@@ -3899,7 +4324,7 @@ mark.pink {
         </span>
 
         <br>
-        <br><span class="red" style="font-size: 30px;">
+        <br><span class="red">
           <br>※(B-第2階段)：再看【平均值等式的t檢定】
           <br>➜判斷【顯著性是否＜0.05】：0.116＞0.05➜➜表示接受【虛無假設H0，男生女生飲料花費：相同】   
           <br>➜【解釋：為什麼選擇0.116，而不是選0.117？】：這是因為階段1，已經證明，必須選擇【相等變異數】
@@ -3908,14 +4333,16 @@ mark.pink {
         </span>
         <br><img src="picSpss/p271.png">
 
-      <br>➜<span class="red" style="font-size: 30px;">
+      <br>➜<span class="red">
           【結論】：現在男生的每週運動時間，沒有比女生多（小於等於女生）
           
           </span>
-        
+          <br><a href="https://docs.google.com/document/d/1F5paTkc1DaBhcEpChkIK_lsALXLo1nwe/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">38-2-題目</a>
+          <br><a href="https://docs.google.com/document/d/1iPksAseq28pNdPjqORFOgjLqAPhSudu6/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">38-2-分析報告</a>
+  
           <br>
           <br>
-          <span>※(7).【獨立樣本t檢定】步驟：
+          <span>※(8).【獨立樣本t檢定】步驟：
           <br>➜【獨立樣本t檢定】：適用於2個類別母體的比較一個連續數值變數。
           <br>➜步驟1：設置2種假設：          
           <br>◉零假設（𝐻0），又名虛無假設：兩個變數之間獨立（無顯著關聯，無顯著差異）。
@@ -3928,6 +4355,37 @@ mark.pink {
           H1對立假設，
           <br>如果p值小於顯著水平（如0.05），則拒絕零假設，認為兩變數之間有顯著關聯。
         </span>
+
+        <br>
+        <hr>
+        <span class="purple">※(9).【獨立樣本t檢定】的重要進階心法：什麼是【右尾檢定，左尾檢定】？
+        <br>(A).心法1：右尾檢定，就是判斷是否第1個群組變數比較大？
+        <br>心法：左尾檢定，就是判斷是否第2個群組變數比較大？
+        <br><a href="picSpss/p450.png" target="_blank">右尾檢定，示意圖</a>，
+        <br><a href="picSpss/p451.png" target="_blank">左尾檢定，示意圖</a>，
+        <br><img src="picSpss/p260.png" width="40%">
+      </span>
+      <br>
+      <span class="purple">        
+        <br>※(B).心法2：什麼是【第1個群組變數】？
+        <br><img src="picSpss/p452.png" width="20%">
+      </span>
+      <br>
+      <span class="purple">        
+        <br>※(C).心法3：如何判斷【右尾檢定】的符合H1假設？
+        <br>如果 t值＞0，且p值（右尾）＜0.05，則拒絕𝐻0假設，接受𝐻1假設，表示「第一組的均值顯著大於第二組」
+        <br><a href="picSpss/p450.png" target="_blank">右尾檢定，示意圖</a>，
+        <br><img src="../GA/ABtest-pic/p47.png" width="50%">
+      </span>
+      <br>
+      <span class="purple">        
+        <br>※(D).心法4：如何判斷【左尾檢定】的符合H1假設？
+        <br>如果 t值＜0，且p值（左尾）＜0.05，則拒絕𝐻0假設，接受𝐻1假設，表示「第二組的均值顯著大於第一組」
+        <br><a href="picSpss/p451.png" target="_blank">左尾檢定，示意圖</a>，
+        <br><img src="../GA/ABtest-pic/p46.png" width="60%">
+
+      </span>
+
     </p>
 
     
@@ -3946,15 +4404,19 @@ mark.pink {
     <div class="card card-body">
       <p style="text-indent: 60px;">
         ※(1).【成果Demo】：判定【台北/雲林地區所得比較】，是否【台北所得高過於雲林】？
+        <br>
         <br><img src="picSpss/p273.png">
-        <span class="red" style="font-size: 30px;">
+        <br><a href="https://docs.google.com/document/d/11vSQ3BHGb6uPKbpHJbzbdBN44Bp9EMNI/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">38-3-題目</a>
+        <br><a href="https://docs.google.com/document/d/1VM3BaXBs7MzQ6D0uvWya11lOm9ly_oIH/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">38-3-分析報告</a>
+        <br>
+        <span class="red">
           <br>➜☎【請問】：這樣子的數據，該用什麼【統計檢定】？
           <br>➜☎【請問】：這個是【雙尾檢定，還是右尾檢定，還是左尾檢定】？
           <br>➜☎【請問】：2個獨立樣本的總體平均數比較，是什麼意思？
 
         </span>       
         <br>        
-        <br>➜<span class="red" style="font-size: 30px;">
+        <br>➜<span class="red">
           ☎※(2).【判斷檢定方法的最重要圖表】：
         </span>
         <br>
@@ -3993,14 +4455,14 @@ mark.pink {
           <br>➜單尾檢定（右尾）
 
         <br>
-        <br><span class="red" style="font-size: 30px;">
+        <br><span class="red">
           ※(7).【注意】：上面的檢定表，【要經過2階段檢定】
           <br>※(A-第1階段)：先看【變異數等式的Levene檢定】
           <br>➜判斷【顯著性是否＜0.05】：0.012＜0.05➜➜表示接受對立假設【2個母體變異數不相等的假設】➜第2列的值   
         </span>
 
         <br>
-        <br><span class="red" style="font-size: 30px;">
+        <br><span class="red">
           <br>※(B-第2階段)：再看【平均值等式的t檢定】
           <br>➜判斷【顯著性是否＜0.05】：0.01/2 = 0.005＜0.05➜➜表示接受【對立假設H1，台北所得大於雲林】   
           <br>➜【解釋：為什麼選擇0.01，而不是選0.009？】：這是因為階段1，已經證明，必須選擇【不相等變異數】
@@ -4009,14 +4471,19 @@ mark.pink {
         </span>
         <br><img src="picSpss/p275.png">
 
-      <br>➜<span class="red" style="font-size: 30px;">
+      <br>➜<span class="red">
           【結論】：台北所得，明顯高於雲林
           
           </span>
+          <br>
+          <br><img src="picSpss/p273.png">
+          <br><a href="https://docs.google.com/document/d/11vSQ3BHGb6uPKbpHJbzbdBN44Bp9EMNI/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">38-3-題目</a>
+          <br><a href="https://docs.google.com/document/d/1VM3BaXBs7MzQ6D0uvWya11lOm9ly_oIH/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">38-3-分析報告</a>
+        
         
           <br>
           <br>
-          <span>※(7).【獨立樣本t檢定】步驟：
+          <span>※(8).【獨立樣本t檢定】步驟：
           <br>➜【獨立樣本t檢定】：適用於2個類別母體的比較一個連續數值變數。
           <br>➜步驟1：設置2種假設：          
           <br>◉零假設（𝐻0），又名虛無假設：兩個變數之間獨立（無顯著關聯，無顯著差異）。
@@ -4029,6 +4496,36 @@ mark.pink {
           H1對立假設，
           <br>如果p值小於顯著水平（如0.05），則拒絕零假設，認為兩變數之間有顯著關聯。
         </span>
+
+        <br>
+        <hr>
+        <span class="purple">※(9).【獨立樣本t檢定】的重要進階心法：什麼是【右尾檢定，左尾檢定】？
+        <br>(A).心法1：右尾檢定，就是判斷是否第1個群組變數比較大？
+        <br>心法：左尾檢定，就是判斷是否第2個群組變數比較大？
+        <br><a href="picSpss/p450.png" target="_blank">右尾檢定，示意圖</a>，
+        <br><a href="picSpss/p451.png" target="_blank">左尾檢定，示意圖</a>，
+        <br><img src="picSpss/p260.png" width="40%">
+      </span>
+      <br>
+      <span class="purple">        
+        <br>※(B).心法2：什麼是【第1個群組變數】？
+        <br><img src="picSpss/p452.png" width="20%">
+      </span>
+      <br>
+      <span class="purple">        
+        <br>※(C).心法3：如何判斷【右尾檢定】的符合H1假設？
+        <br>如果 t值＞0，且p值（右尾）＜0.05，則拒絕𝐻0假設，接受𝐻1假設，表示「第一組的均值顯著大於第二組」
+        <br><a href="picSpss/p450.png" target="_blank">右尾檢定，示意圖</a>，
+        <br><img src="../GA/ABtest-pic/p47.png" width="50%">
+      </span>
+      <br>
+      <span class="purple">        
+        <br>※(D).心法4：如何判斷【左尾檢定】的符合H1假設？
+        <br>如果 t值＜0，且p值（左尾）＜0.05，則拒絕𝐻0假設，接受𝐻1假設，表示「第二組的均值顯著大於第一組」
+        <br><a href="picSpss/p451.png" target="_blank">左尾檢定，示意圖</a>，
+        <br><img src="../GA/ABtest-pic/p46.png" width="60%">
+
+      </span>
     </p>
 
     
@@ -4047,16 +4544,19 @@ mark.pink {
       <p style="text-indent: 60px;">
 
         ※(1).【成果Demo】：判定【男女對於洗面乳選購的在意點】，是否【男女會有明顯差異】？
+        <br><a href="https://forms.gle/MFJSzK6QcFASmq3V7" target="_blank">
+          ※【第1種表單】，選項用【5點量表】，且【儲存數字】（方便SPSS分析，但不方便user填寫）
+        </a>
         <br><img src="picSpss/p283.png">
         <br><img src="picSpss/p276.png">
         
-        <span class="red" style="font-size: 30px;">
+        <span class="red">
           <br>➜☎【請問1】：探討上面問卷的2個變數【性別】vs【購買洗面乳考慮因素(選項有5個)】，它們的關係是【類別vs類別】，還是【類別vs連續數值】？
           <br>➜☎【請問2】：探討這樣子【性別】vs【購買洗面乳考慮因素(選項有5個)】彼此關聯，該用什麼【統計檢定】？
           <br>➜☎【請問3】：這個是【雙尾檢定，還是右尾檢定，還是左尾檢定】？
         </span>       
         <br>        
-        <br>➜<span class="red" style="font-size: 30px;">
+        <br>➜<span class="red">
           ☎※(2).【判斷檢定方法的最重要圖表】：
         </span>
         <br>
@@ -4067,7 +4567,9 @@ mark.pink {
         <br>➜<span class="red">【重要觀念】：所以5點量表的【欄位】，是【數值】欄位，不是【類別】欄位</span>
         
         <br>
-        <br>※(3).<a href="https://forms.gle/MFJSzK6QcFASmq3V7" target="_blank">建立Google問卷調查表單：男女對於洗面乳選購的在意點調查</a>
+        <br>※(3).<a href="https://forms.gle/MFJSzK6QcFASmq3V7" target="_blank">
+          建立Google問卷調查表單：男女對於洗面乳選購的在意點調查
+        </a>
         <br>➜<span class="red">【特別注意】：若是問卷表單的欄位要用數值儲存，則選擇題，盡量用【5點量表】/【2點量表】來製作，欄位儲存的值才會是1，2，3...</span>
                 <br>※輸入3筆數據
         <br>➜<a href="https://docs.google.com/spreadsheets/d/1C_jq7irbvkkHr_t12bSMUNQFmKlJjok_NyH4-_llBDg/edit?usp=sharing" target="_blank">回覆後建立的Google試算表檔案：38-4.-男女對於洗面乳選購的在意點調查 (回覆)</a>
@@ -4118,14 +4620,14 @@ mark.pink {
           <br><img src="picSpss/p282.png">
 
         <br>
-        <br><span class="red" style="font-size: 30px;">
-          ※(7).【注意】：上面的檢定表，【要經過2階段檢定】
+        <br><span class="red">
+          ※(8).【注意】：上面的檢定表，【要經過2階段檢定】
           <br>※(A-第1階段)：先看【變異數等式的Levene檢定】
           <br>➜判斷【顯著性是否＜0.05】：全部的【顯著性值】都＞0.05➜➜表示接受虛無假設【2個母體變異數相等的假設】➜第1列的值   
         </span>
 
         <br>
-        <br><span class="red" style="font-size: 30px;">
+        <br><span class="red">
           <br>※(B-第2階段)：再看【平均值等式的t檢定】
           <br>➜判斷【顯著性是否＜0.05】：
           <br>➜【抗痘，去油】的【顯著性值】都＞0.05➜表示接受【虛無假設H0】➜【男女的選擇，沒有明顯差異】
@@ -4136,11 +4638,41 @@ mark.pink {
         <br><img src="picSpss/p284.png">
 
         <br>
-      <span class="red" style="font-size: 30px;">
+      <span class="red">
         <br>➜【結論1】：男女在選購洗面乳時，男女在考慮【抗痘，去油】方面，【沒有明顯差異】
         <br>➜【結論2】：男女在選購洗面乳時，男女在考慮【美白，保濕，保濕，緊緻毛孔，卸妝】方面，【有明顯差異】
         <br>➜【結論3】：若是看平均數字，男女在考慮【美白，保濕，保濕，緊緻毛孔，卸妝】方面，【明顯是女生比較會考慮，男生比較不在意】
       </span>
+
+      <br>
+      <hr>
+      <span class="purple">※(9).【獨立樣本t檢定】的重要進階心法：什麼是【右尾檢定，左尾檢定】？
+      <br>(A).心法1：右尾檢定，就是判斷是否第1個群組變數比較大？
+      <br>心法：左尾檢定，就是判斷是否第2個群組變數比較大？
+      <br><a href="picSpss/p450.png" target="_blank">右尾檢定，示意圖</a>，
+      <br><a href="picSpss/p451.png" target="_blank">左尾檢定，示意圖</a>，
+      <br><img src="picSpss/p260.png" width="40%">
+    </span>
+    <br>
+    <span class="purple">        
+      <br>※(B).心法2：什麼是【第1個群組變數】？
+      <br><img src="picSpss/p452.png" width="20%">
+    </span>
+    <br>
+    <span class="purple">        
+      <br>※(C).心法3：如何判斷【右尾檢定】的符合H1假設？
+      <br>如果 t值＞0，且p值（右尾）＜0.05，則拒絕𝐻0假設，接受𝐻1假設，表示「第一組的均值顯著大於第二組」
+      <br><a href="picSpss/p450.png" target="_blank">右尾檢定，示意圖</a>，
+      <br><img src="../GA/ABtest-pic/p47.png" width="50%">
+    </span>
+    <br>
+    <span class="purple">        
+      <br>※(D).心法4：如何判斷【左尾檢定】的符合H1假設？
+      <br>如果 t值＜0，且p值（左尾）＜0.05，則拒絕𝐻0假設，接受𝐻1假設，表示「第二組的均值顯著大於第一組」
+      <br><a href="picSpss/p451.png" target="_blank">左尾檢定，示意圖</a>，
+      <br><img src="../GA/ABtest-pic/p46.png" width="60%">
+
+    </span>
     </p>
 
     
@@ -4159,37 +4691,77 @@ mark.pink {
     <div class="card card-body">
       <p style="text-indent: 60px;">
         ※(1).【成果Demo】：判定【男女對於洗面乳選購的在意點】，是否【女生是不是會比男生來得明顯重視？】(2)(重要)
+        <br><a href="https://forms.gle/c2uvoFBA7rjAJr4B7" target="_blank">
+          ※【第2種表單】，可以取代【5點量表】又可以【儲存數字】的Google問卷表單
+        </a>
+        <br><a href="https://forms.gle/ZqE1kFPoCJz8AP887" target="_blank">
+          ※【第3種表單】，選擇項目都是文字，最後到Excel再去取代成數字（方便user填寫，必須在excel手動取代文字為數字）
+          </a>
         <br><img src="picSpss/p283.png">
-        <br>
+
+        <br> 
+        <hr>
         <br><a href="https://forms.gle/MFJSzK6QcFASmq3V7" target="_blank">請開啟【上一題的Google問卷表單】，要做修改</a>
-        <span class="red" style="font-size: 30px;">
-          <br>➜☎【請問1】：上述Google問卷的選項若要儲存【數字1,2,3...】，除了採用【5點量表】外，還有什麼方法？
+        <span class="red">
+          <br>☎【請問1】：上述Google問卷的選項若要儲存【數字1,2,3...】，除了採用【5點量表】外，還有什麼方法？
           <br>➜☎【請問2】：上述Google問卷的同時有很多一樣選項的題目，首選是【單選方格】，但是它沒有支援【5點量表】，只能用【文字選擇題】來做，如何才能儲存數字欄位？
           <br>➜☎【請問3】：上述Google問卷的【性別】，若是用【5點量表】來做，有點怪怪的，可以用【選擇題/單選題】來做嗎？
           <br>➜☎【請問4】：難道【5點量表】是問卷調查唯一的方法了嗎？
           <br>➜☎【請問5】：這個是【雙尾檢定，還是右尾檢定，還是左尾檢定】？
-        </span>       
-        <br> 
+        </span>  
+        <hr>     
+        <br>
         <br>※(2).【修改Google表單】：找出，又可以取代【5點量表】又可以【儲存數字】的做法：
-        <br>➜<a href="https://forms.gle/c2uvoFBA7rjAJr4B7" target="_blank">建立可以取代【5點量表】又可以【儲存數字】的Google問卷表單</a>
+        <br><a href="https://forms.gle/c2uvoFBA7rjAJr4B7" target="_blank">
+          【第2種表單】建立可以取代【5點量表】又可以【儲存數字】的Google問卷表單
+        </a>
         <span class="red">
           <br>➜【方法1】：使用【選擇題】，其中的項目用【1，2，3...】
           <br>➜【方法2】：使用【單選方格(5點量表)】，其中的項目用【1，2，3...】
         </span>
         <br>※輸入3筆數據
-        <br>➜<a href="https://docs.google.com/spreadsheets/d/1KwJarzuMDO3S7PRF59Q3aWf8TbLylZZl8LguCk9gkEo/edit?usp=sharing" target="_blank">回覆後建立的Google試算表檔案：發現欄位名稱過長</a>
+        <br><a href="https://docs.google.com/spreadsheets/d/1KwJarzuMDO3S7PRF59Q3aWf8TbLylZZl8LguCk9gkEo/edit?usp=sharing" target="_blank">回覆後建立的Google試算表檔案：發現欄位名稱過長</a>
         <br>➜【檔案】➜【下載】➜
         <br>➜把【時間戳記】➜修改成【編號】➜這個欄位，滑鼠右鍵➜修改【儲存格格式】➜改成【數值】➜小數點0位
         <br>➜把其它欄位修改成簡短欄位名稱：【抗痘，去油，美白，保濕，保濕，緊緻毛孔，卸妝】
         <br>➜修改編號的值，輸入【1，2，3，.....】
-        <br><a href="picSpss/p276.png" target="_blank">修改後的excel數據畫面，示意圖</a>，
+        <br><a href="picSpss/p276.png" target="_blank">
+          修改後的excel數據畫面，示意圖
+        </a>
         <br>
-        <br>※(4).<a href="picSpss/38-4.-男女對於洗面乳選購的在意點調查.csv" target="_blank">下載問卷調查的完整資料：男女對於洗面乳選購的在意點調查</a>
+        <br><a href="picSpss/38-4.-男女對於洗面乳選購的在意點調查.csv" target="_blank">
+          ※(3).下載問卷調查的完整資料：男女對於洗面乳選購的在意點調查</a>
         <br>※開啟【38-4-男女對於洗面乳選購的在意點調查.csv】，
-        <br>➜複製csv的數據，貼到excel檔案
-        <br><a href="picSpss/p277.png" target="_blank">修改後的excel數據畫面，示意圖</a>，
+        <br>複製csv的數據，貼到excel檔案
+        <br><a href="picSpss/p277.png" target="_blank">修改後的excel數據畫面，示意圖</a>
+        <br> 
+        <hr>
+        <br><a href="https://forms.gle/ZqE1kFPoCJz8AP887" target="_blank">
+          ※(4).【第3種表單】，選擇項目都是文字，最後到Excel再去取代成數字
+          </a>
+          <br>※輸入3筆數據：
+          <a href="https://docs.google.com/spreadsheets/d/1pdqBpP6brkTe5QWAsQzUkucPs0XpZmcE1D9gMQUV8es/edit?usp=sharing" target="_blank">
+            回覆後建立的Google試算表檔案：發現欄位名稱過長
+          </a>
+          <br>➜【檔案】➜【下載】➜
+        <br>➜把【時間戳記】➜修改成【編號】➜這個欄位，滑鼠右鍵➜修改【儲存格格式】➜改成【數值】➜小數點0位
+        <br>➜把其它欄位修改成簡短欄位名稱：【抗痘，去油，美白，保濕，保濕，緊緻毛孔，卸妝】
+        <br>➜修改編號的值，輸入【1，2，3，.....】
+        <span class="red">
+        <br>➜把【非常不重要】修改成【1】 
+        <br>➜把【不重要】修改成【2】 
+        <br>➜把【普通】修改成【3】 
+        <br>➜把【重要】修改成【4】 
+        <br>➜把【非常重要】修改成【5】        
+        <br>➜把【男，女】修改成【1，2】       
+      </span> 
+        <br><a href="picSpss/p276.png" target="_blank">
+          修改後的excel數據畫面，示意圖
+        </a>
+
 
         <br>
+        <hr>
         <br>※(5).用北科大軟體雲的SPSS新增新的檔案，先在【變數視圖】視窗，建立2個欄位
         <br>➜【編號】
         <br>➜【抗痘】：數值
@@ -4200,7 +4772,7 @@ mark.pink {
         <br>➜【性別】：數值➜在【值】欄位建立標籤（1：男，2：女）
         <br>➜將excel的全部數據，複製貼到SPSS
         <br><a href="picSpss/p278.png" target="_blank">示意圖1</a>，
-        <a href="picSpss/p279.png" target="_blank">示意圖1</a>，
+        <a href="picSpss/p279.png" target="_blank">示意圖1</a>
 
         <br>
         <br>※(6).建立【獨立樣本t檢定】
@@ -4211,7 +4783,7 @@ mark.pink {
         <br>➜點按【定義群組】：
         <br>➜設定【群組1】➜1
         <br>➜設定【群組2】➜2
-        <br><a href="picSpss/p280.png" target="_blank">示意圖1</a>，
+        <br><a href="picSpss/p280.png" target="_blank">示意圖1</a>
         <br>
         <br>
           ※(7).要判斷這是【雙尾檢定，還是單尾（左/右尾）檢定？】
@@ -4226,14 +4798,14 @@ mark.pink {
           <br><img src="picSpss/p282.png">
 
         <br>
-        <br><span class="red" style="font-size: 30px;">
-          ※(7).【注意】：上面的檢定表，【要經過2階段檢定】
+        <br><span class="red">
+          ※(8).【注意】：上面的檢定表，【要經過2階段檢定】
           <br>※(A-第1階段)：先看【變異數等式的Levene檢定】
           <br>➜判斷【顯著性是否＜0.05】：全部的【顯著性值】都＞0.05➜➜表示接受虛無假設【2個母體變異數相等的假設】➜第1列的值   
         </span>
 
         <br>
-        <br><span class="red" style="font-size: 30px;">
+        <br><span class="red">
           <br>※(B-第2階段)：再看【平均值等式的t檢定】
           <br> 二，獨立樣本t檢定，判斷過程：
           <br>1.這是【單尾檢定】➜所以要把【顯著性值】/2         
@@ -4251,7 +4823,7 @@ mark.pink {
         <br><img src="picSpss/p284.png">
 
         <br>
-      <span class="red" style="font-size: 30px;">
+      <span class="red">
         <br>三，結論：
         <br>1.【結論1】：在選購洗面乳時，男生比較在意的點是【抗痘】
         <br>2.【結論2】：在選購洗面乳時，女生比較在意的點是【去油，美白，保濕，保濕，緊緻毛孔，卸妝】。
@@ -4265,6 +4837,36 @@ mark.pink {
       <br>※四，【發現問題】：數據太雜亂，無法精簡，一目了然地描述  
       <br>➜在撰寫報告時，若只是參考SPSS的輸出表格，會因為參數太多，而很難一目了然地說明數據
       <br>➜所以一般會把【SPSS表格➜貼到Excel修改，排序，彙整一個精簡表格➜貼到Word寫報告】
+      </span>
+
+              <br>
+        <hr>
+        <span class="purple">※(9).【獨立樣本t檢定】的重要進階心法：什麼是【右尾檢定，左尾檢定】？
+        <br>(A).心法1：右尾檢定，就是判斷是否第1個群組變數比較大？
+        <br>心法：左尾檢定，就是判斷是否第2個群組變數比較大？
+        <br><a href="picSpss/p450.png" target="_blank">右尾檢定，示意圖</a>，
+        <br><a href="picSpss/p451.png" target="_blank">左尾檢定，示意圖</a>，
+        <br><img src="picSpss/p260.png" width="40%">
+      </span>
+      <br>
+      <span class="purple">        
+        <br>※(B).心法2：什麼是【第1個群組變數】？
+        <br><img src="picSpss/p452.png" width="20%">
+      </span>
+      <br>
+      <span class="purple">        
+        <br>※(C).心法3：如何判斷【右尾檢定】的符合H1假設？
+        <br>如果 t值＞0，且p值（右尾）＜0.05，則拒絕𝐻0假設，接受𝐻1假設，表示「第一組的均值顯著大於第二組」
+        <br><a href="picSpss/p450.png" target="_blank">右尾檢定，示意圖</a>，
+        <br><img src="../GA/ABtest-pic/p47.png" width="50%">
+      </span>
+      <br>
+      <span class="purple">        
+        <br>※(D).心法4：如何判斷【左尾檢定】的符合H1假設？
+        <br>如果 t值＜0，且p值（左尾）＜0.05，則拒絕𝐻0假設，接受𝐻1假設，表示「第二組的均值顯著大於第一組」
+        <br><a href="picSpss/p451.png" target="_blank">左尾檢定，示意圖</a>，
+        <br><img src="../GA/ABtest-pic/p46.png" width="60%">
+
       </span>
     
     </div>
@@ -4394,13 +4996,20 @@ mark.pink {
       <p style="text-indent: 60px;">
         ※(1).【成果Demo】：判定【東京的1月份均溫，在90年代前，和90年代後】，【是否存在差異】？
         <br><img src="picSpss/p315.png">
-        <span class="red" style="font-size: 30px;">
+        <br>
+        <br><a href="https://docs.google.com/document/d/1J6qanYJhT0oTYmOCT0tXGfcY11UPC0D5/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">38-7-題目</a>
+        <br><a href="https://docs.google.com/document/d/1CT0Ji89R59DNgIYxE1-9comxHImfEGCk/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">38-7-分析報告-錯誤寫法</a>
+        <br><a href="https://docs.google.com/document/d/11mJZ4vhgWPal64ka24C0TSRYbOPKkOtZ/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">38-7-分析報告-正確寫法</a>
+       
+        <br>
+
+        <span class="red">
           <br>➜☎【請問】：這個分析題目的2個變數(x,y)，分別是什麼？
           <br>➜☎【請問】：這樣子的數據，該用什麼【統計檢定】？
           <br>➜☎【請問】：這個是【雙尾檢定，還是右尾檢定，還是左尾檢定】？
         </span>       
         <br>        
-        <br>➜<span class="red" style="font-size: 30px;">
+        <br>➜<span class="red">
           ☎※(2).【判斷檢定方法的最重要圖表】：
         </span>
         <br>
@@ -4441,14 +5050,14 @@ mark.pink {
       
         </span>
         <br>
-        <br><span class="red" style="font-size: 30px;">
+        <br><span class="red">
           ※(7).【注意】：上面的檢定表，【要經過2階段檢定】
           <br>※(A-第1階段)：先看【變異數等式的Levene檢定】
           <br>➜判斷【顯著性是否＜0.05】：0.438＞0.05➜➜表示接受【2個母體變異數相等的假設】   
         </span>
 
         <br>
-        <br><span class="red" style="font-size: 30px;">
+        <br><span class="red">
           <br>※(B-第2階段)：再看【平均值等式的t檢定】
           <br>➜判斷【顯著性是否＜0.05】：0.02＜0.05➜➜表示接受【對立假設H1，90年代前後不一樣】
           <br>➜【平均】：90年代前是-4.58，90年代後是-3.2，
@@ -4457,7 +5066,7 @@ mark.pink {
         <br><img src="picSpss/p314.png">
 
       <br>
-      <span class="red" style="font-size: 30px;">
+      <span class="red">
         <br>➜【結論1】：東京的1月份均溫，90年代前後，有明顯差異
         <br>➜【結論2】：東京的1月份均溫，90年代前較低，90年代後較高
         <br>➜【注意】：這題的正確做法，應該是下一章的【成對樣本t檢定】，因為【x變數若是相關，相依的】，例如【同一物體的前後測試，x變數在同一物體上同時測試...】，都是屬於【配對樣本t檢定】
@@ -4470,7 +5079,7 @@ mark.pink {
   </div> 
 
 
-  <p><a class="font-weight-bold" >【3-9-成對樣本t檢定，配對樣本t檢定（彼此有相關的類別x vs 連續數值y）】：檢定2個獨立樣本(2個選擇的種類)的總體平均數，是否存在顯著差異？</a></p>
+  <p id="main3-9"><a class="font-weight-bold" >【3-9，成對樣本t檢定，配對樣本t檢定（彼此有相關的類別x vs 連續數值y）】：檢定2個獨立樣本(2個選擇的種類)的總體平均數，是否存在顯著差異？</a></p>
 
   
   <p style="text-indent: 50px;">
@@ -4483,14 +5092,18 @@ mark.pink {
       <p style="text-indent: 60px;">
         ※(1).【成果Demo】：【比較2廠牌輪胎的磨損，車子左邊用正欣輪胎，右邊用見大輪胎】，【正欣輪胎是否比見大磨損大】？
         <br><img src="picSpss/p316.png">
-        <span class="red" style="font-size: 30px;">
+        <br>
+        <br><a href="https://docs.google.com/document/d/1KZJXLS2FE0DKZW0pE6ulRYtWOChJK_e_/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">39-1-題目</a>
+        <br><a href="https://docs.google.com/document/d/1XEMZOE8KEybeAdmii61BaPSF1w7epcO0/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">39-1-分析報告</a>
+        <br>
+        <span class="red">
           <br>➜☎【請問】：這個分析題目的2個變數(x,y)，分別是什麼？
           <br>➜☎【請問】：這樣子的數據，該用什麼【統計檢定】？
           <br>➜☎【請問】：這個是【雙尾檢定，還是右尾檢定，還是左尾檢定】？
 
         </span>       
         <br>        
-        <br>➜<span class="red" style="font-size: 30px;">
+        <br>➜<span class="red">
           ☎※(2).【判斷檢定方法的最重要圖表】：
         </span>
         <br>
@@ -4513,9 +5126,9 @@ mark.pink {
         <br>➜【見大】：數值
         <br>➜複製貼上csv的數據
         <br>
-        <br>※(5).建立【單一樣本t檢定】
+        <br>※(5).建立【成對樣本t檢定】
         <br>➜上方【分析】➜【比較平均數法】➜【成對樣本t檢定】
-        <br><a href="picSpss/p317.png" target="_blank">【獨立樣本t檢定】，示意圖</a>，
+        <br><a href="picSpss/p317.png" target="_blank">【成對樣本t檢定】，示意圖</a>，
         <br>➜設定【配對變數】➜【正欣，見大】
         <br>➜設定【選項】➜【信賴區間百分比】= 95%
         <br><a href="picSpss/p318.png" target="_blank">設定【配對變數】，示意圖</a>，
@@ -4531,15 +5144,14 @@ mark.pink {
         </span>
         <br>
 
-        <br><span class="red" style="font-size: 30px;">
+        <br><span class="red">
           <br>※(7).看【t檢定的顯著性值，注意：是單尾檢定，要/2】
           <br>➜判斷【顯著性是否＜0.05】：0.061/2 = 0.0305＜0.05➜表示接受【對立假設H1，正欣輪胎磨損＞見大】
           <br>➜【平均】：正欣輪胎磨損96.0，見大87.43，差異頗大
           <br>➜【經過檢定後發現】：p= 0.0305＜信賴水準0.05，所以符合對立假設（正欣輪胎磨損＞見大，明顯差異）
         </span>
-        <br><img src="picSpss/p270.png">
         <br>
-      <span class="red" style="font-size: 30px;">
+      <span class="red">
         <br>※(8).【結論】：正欣輪胎磨損＞見大，明顯有差異
           <br>➜【注意】：如果【x變數若是相關，相依的】，例如【同一物體的前後測試，x變數在同一物體上同時測試...】，都是屬於【配對樣本t檢定】
 
@@ -4555,23 +5167,27 @@ mark.pink {
   
   <p style="text-indent: 50px;">
     <a class="text-danger" data-bs-toggle="collapse" href="#collapseExample-39-2" role="button" aria-expanded="false" aria-controls="collapseExample-39-2">
-      chp39-2.【無瞎米打字法，能夠訓練10位同學，前後進步多40個字嗎】？
+      chp39-2.【無瞎米打字法，訓練10位同學，經過訓練後，能夠多進步40個字嗎】？
     </a>
   </p>
   <div class="collapse" id="collapseExample-39-2">
     <div class="card card-body">
       <p style="text-indent: 60px;">
-        ※(1).【成果Demo】：【無瞎米打字法，能夠訓練10位同學，前後進步多40個字嗎】？
+        ※(1).【成果Demo】：【無瞎米打字法，訓練10位同學，經過訓練後，能夠多進步40個字嗎】？
         <br>➜【訓練前，訓練後】數據如下：        
         <br><img src="picSpss/p321.png">
-        <span class="red" style="font-size: 30px;">
+        <br>
+        <br><a href="https://docs.google.com/document/d/13fC-to6YxocH7hwLv46mAmN_zDqp4j-x/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">39-2-題目</a>
+        <br><a href="https://docs.google.com/document/d/1enXA9Cwcp88rT8_hU1mhv2VLVPo0oBUz/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">39-2-分析報告</a>
+        <br>
+        <span class="red">
           <br>➜☎【請問】：這個分析題目的2個變數(x,y)，分別是什麼？
           <br>➜☎【請問】：這樣子的數據，該用什麼【統計檢定】？
           <br>➜☎【請問】：這個是【雙尾檢定，還是右尾檢定，還是左尾檢定】？
 
         </span>       
         <br>        
-        <br>➜<span class="red" style="font-size: 30px;">
+        <br>➜<span class="red">
           ☎※(2).【判斷檢定方法的最重要圖表】：
         </span>
         <br>
@@ -4616,19 +5232,19 @@ mark.pink {
           ※(7).要判斷這是【雙尾檢定，還是單尾檢定？】
           <br>➜題目問題的假設：【前後進步多40個字嗎】？
           <br>➜H0虛無假設/否定假設：μ1 ≧ （μ2-40）（後來沒有超過40字）
-          <br>➜H1對立假設：μ1 ＜ （μ2-40）（後來有超過40字）
+          <br>➜H1對立假設/肯定假設：μ1 ＜ （μ2-40）（後來有超過40字）
           <br>➜單尾檢定
       
         </span>
         <br>
-        <br><span class="red" style="font-size: 30px;">
+        <br><span class="red">
           <br>※(8).看【t檢定的顯著性值，注意：是單尾檢定，要/2】
-          <br>➜判斷【顯著性是否＜0.05】：0.598/2 = 0.299＞0.05➜表示接受【虛無假設H1，後來沒有超過40字】
-          <br>➜【平均】：訓練前17，（訓練後-40）為19，有差異
-          <br>➜【經過檢定後發現】：p= 0.0305＜信賴水準0.05，所以符合虛無假設H1，後來沒有超過40字
+          <br>➜判斷【顯著性是否＜0.05】：0.598/2 = 0.299＞信賴水準0.05
+          <br>➜表示接受【虛無假設H0，後來沒有超過40字】
+          <br>➜【平均】：訓練前17，（訓練後-40）為19
         </span>
         <br>
-      <span class="red" style="font-size: 30px;">
+      <span class="red">
         <br>※(9).【結論】：同一批學生接受無瞎米訓練，結果訓練後，打字後來無法超過40字
           <br>➜【注意】：如果【x變數若是相關，相依的】，例如【同一物體的前後測試，x變數在同一物體上同時測試...】，都是屬於【配對樣本t檢定】
 
@@ -4642,7 +5258,7 @@ mark.pink {
  
   
 
-  <p><a class="font-weight-bold" >【3-10-單因子變異數分析，ANOVA】：檢驗多組(n＞2)母體平均數是否相等（x類別>=3 vs 連續數值y）</a></p>
+  <p id="main3-10"><a class="font-weight-bold" >【3-10，單因子變異數分析，ANOVA】：檢驗多組(n＞2)母體平均數是否相等（x類別>=3 vs 連續數值y）</a></p>
 
   
   <p style="text-indent: 50px;">
@@ -4656,14 +5272,19 @@ mark.pink {
         ※(1).【成果Demo】：【在報紙投放不同方式的廣告，比較回應人數，是否有差異】？
         <br>➜【廣告種類】➜有4種廣告➜【全版，半版，1/4版，小廣告】        
         <br><img src="picSpss/p326.png">
-        <span class="red" style="font-size: 30px;">
+        <br>
+        <br><a href="https://docs.google.com/document/d/1jeNV_n2qZxaJ1OLzJdeeJ9Se32CHtkHh/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">310-1-題目</a>
+        <br><a href="https://docs.google.com/document/d/1tVc7BNBGZoxyKPLwUBOyifv63lhNvh75/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">310-1-分析報告</a>
+        <br>
+
+        <span class="red">
           <br>➜☎【請問】：這個分析題目的多個變數關係(x,y)，分別是什麼？
           <br>➜☎【請問】：這樣子的數據，該用什麼【統計檢定】？
           <br>➜☎【請問】：這個是【雙尾檢定，還是右尾檢定，還是左尾檢定】？
 
         </span>       
         <br>        
-        <br>➜<span class="red" style="font-size: 30px;">
+        <br>➜<span class="red">
           ☎※(2).【判斷檢定方法的最重要圖表】：
         </span>
         <br>
@@ -4708,7 +5329,7 @@ mark.pink {
         </span>
         <br>
 
-        <br><span class="red" style="font-size: 30px;">
+        <br><span class="red">
           <br>※(7).看【顯著性值】
           <br>➜判斷【顯著性是否＜0.05】：0.003＜0.05➜表示接受【對立假設H1，4種方式的投放廣告，回應人數明顯不同，廣告效果不同】
           <br>➜【平均值】：【1173，1083，724，733】，差異頗大
@@ -4716,7 +5337,7 @@ mark.pink {
         </span>
         <br><img src="picSpss/p270.png">
         <br>
-      <span class="red" style="font-size: 30px;">
+      <span class="red">
         <br>※(8).【結論】：4種方式的投放廣告，回應人數明顯不同，廣告效果不同
 
           </span>
@@ -4740,14 +5361,18 @@ mark.pink {
         ※(1).【成果Demo】：【大學生每月刷卡金額，是否與零用金來源不同而有所差異】？
         <br>➜【零用金來源種類】➜有3種➜【家中給予，打工賺取，兩者皆有】        
         <br><img src="picSpss/p331.png">
-        <span class="red" style="font-size: 30px;">
+        <br>
+        <br><a href="https://docs.google.com/document/d/1tz0IFVOW44Dw8VkfkPPJF-YBSNf1wuyE/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">310-2-題目</a>
+        <br><a href="https://docs.google.com/document/d/1v0VD7viMeHsGzA-lmIpbeo12esgIdzTw/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">310-2-分析報告</a>
+        <br>
+        <span class="red">
           <br>➜☎【請問】：這個分析題目的多個變數關係(x,y)，分別是什麼？
           <br>➜☎【請問】：這樣子的數據，該用什麼【統計檢定】？
           <br>➜☎【請問】：這個是【雙尾檢定，還是右尾檢定，還是左尾檢定】？
 
         </span>       
         <br>        
-        <br>➜<span class="red" style="font-size: 30px;">
+        <br>➜<span class="red">
           ☎※(2).【判斷檢定方法的最重要圖表】：
         </span>
         <br>
@@ -4788,18 +5413,31 @@ mark.pink {
         </span>
         <br>
 
-        <br><span class="red" style="font-size: 30px;">
+        <br><span class="red">
           <br>※(7).看【顯著性值】
           <br>➜判斷【顯著性是否＜0.05】：0.636＞0.05➜表示接受【虛無假設H0，3種方式的刷卡，差異明顯不同，沒有明顯趨勢】
           <br>➜【平均值】：【4557，2000，5418】，差異頗大
           <br>➜【經過檢定後發現】：p= 0.636＞0.05信賴水準0.05，所以符合虛無假設（3種方式的刷卡，差異明顯不同，沒有明顯趨勢）
         </span>
-        <br><img src="picSpss/p270.png">
         <br>
-      <span class="red" style="font-size: 30px;">
-        <br>※(8).【結論】：3種方式的刷卡，差異明顯不同，沒有明顯趨勢
+      <span class="red">
+        <br>※(8).【結論】：3種零用金來源不同所對應的刷卡金額，沒有差異
+        <br>※(8).【結論】：3種方式的零用金來源，對應刷金額沒有不同，沒有明顯趨勢
         <br>※(8).【結論】：大學生的刷卡金額，與他零用金來源方式，是無關聯的
-          </span>
+      </span>
+          <br>
+          <mark class="yellow">
+            <br>※(9).【疑問】：但是，三種不同【零用金來源種類】的刷卡【平均值】分別是：【4557，2000，5418】，差異頗大 ，為什麼檢定結果，卻是不同零用金來源的大學生在每月刷卡金額上並無顯著差異？
+            <br>※【回答】：
+            <br>檢定結果顯示「無顯著差異」，即便三組的平均值差異看起來較大，這可能是由於以下原因：
+            <br><span class="red">1. 資料分布的影響：</span>
+            <br>ANOVA 檢定考慮的不只是平均值的差異，還包括每組數據的 變異性（數據的離散程度）。如果每組內的刷卡金額變異較大，則即使平均值差異顯著，也可能因為數據分散而導致結果不顯著。
+            <br>
+            <br><span class="red">2. 樣本數量不足：</span>
+            <br>如果每組的樣本數量較少，檢定的統計力量（power）可能不足，導致即便存在差異，檢定也無法有效檢出。
+          </mark>
+
+          
         
     </p>
 
@@ -4823,14 +5461,18 @@ mark.pink {
         <br>➜【性別】➜有2種➜【1男，2女】
         <br>➜【是否有手機】➜有2種➜【1有手機，2無手機】
         <br><img src="picSpss/p333.png">
-        <span class="red" style="font-size: 30px;">
+        <br>
+        <br><a href="https://docs.google.com/document/d/1CXLtPgdCruDR0UHBw6MNeuFyYTDUpZvF/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">310-3-題目</a>
+        <br><a href="https://docs.google.com/document/d/1b_kN2Bq6MHAu_4OK6NWt_JN5jz2FT3vt/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">310-3-分析報告</a>
+        <br>
+        <span class="red">
           <br>➜☎【請問】：這個分析題目的多個變數關係(x,y)，分別是什麼？
           <br>➜☎【請問】：這樣子的數據，該用什麼【統計檢定】？
           <br>➜☎【請問】：這個是【雙尾檢定，還是右尾檢定，還是左尾檢定】？
 
         </span>       
         <br>        
-        <br>➜<span class="red" style="font-size: 30px;">
+        <br>➜<span class="red">
           ☎※(2).【判斷檢定方法的最重要圖表】：
         </span>
         <br>
@@ -4913,6 +5555,13 @@ mark.pink {
         <br>➜答案選項：1.非常不重要，2.不重要，3.普通，4.重要，5.非常重要 
         <br>➜考量因素選項：去頭皮屑，保濕，熱油護髮，止癢，香味，防止分岔，柔順，整體效果
         <br><img src="picSpss/p340.png" width="60%">
+        <br>
+        <br><a href="https://docs.google.com/document/d/135G2mmzYAzAPjnqe8mf37rAFnWC45D4u/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">310-4-題目</a>
+        <br><a href="https://docs.google.com/document/d/1yukmSWDg8mjhTuZYICFreRIzX6lpT745/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">310-4-分析報告</a>
+        <br>
+        <br>※<a href="https://forms.gle/dBdJwpFRJ9Pq2XHDA" target="_blank">【第1種問卷表單】</a>
+        <br>※<a href="https://docs.google.com/forms/d/e/1FAIpQLScOUO1XZBlsIs1Q7inhoNxAaAKVLPAl9sGhgYww3wfCV4_rgw/viewform?usp=header" target="_blank">【第2種問卷表單】</a>
+        <br>
         <br>➜<span class="red">【請問1】：該如何用Google表單設計出如此表單？</span>
         <br>➜<span class="red">【請問2】：而且答案都必須儲存成數字1，2，3...（不可以儲存成文字：海倫仙度絲，飛柔）</span>
         <br>
@@ -4925,7 +5574,8 @@ mark.pink {
         <br>➜【困難度】：答案選項若是1，2，3，4，5，如何讓人知道【1：是重要，還是不重要】呢？
         <br>
         <br>※(3).【表單設計的解決方法】：
-        <br>※<a href="https://forms.gle/dBdJwpFRJ9Pq2XHDA" target="_blank">【成果】開啟Google問卷調查表單檔案：對於洗面乳選購的在意點調查</a>
+        <br>※<a href="https://forms.gle/dBdJwpFRJ9Pq2XHDA" target="_blank">【第1種問卷表單】</a>
+        <br>※<a href="https://docs.google.com/forms/d/e/1FAIpQLScOUO1XZBlsIs1Q7inhoNxAaAKVLPAl9sGhgYww3wfCV4_rgw/viewform?usp=header" target="_blank">【第2種問卷表單】</a>
         <br>➜<span class="red">【特別注意】：若是問卷表單的欄位要用數值儲存，則選擇題，盡量用【5點量表】/【2點量表】來製作，欄位儲存的值才會是1，2，3...</span>
         <span class="red">
           <br>➜【如何勾選【1.海倫仙度絲】，但卻可以在試算表儲存數字『1』】？
@@ -4937,19 +5587,24 @@ mark.pink {
         <br>
         <br>※(4).【輸入3筆數據法】：
         <br>➜開啟【連結的google試算表】
-        <br>➜<a href="https://docs.google.com/spreadsheets/d/1C_jq7irbvkkHr_t12bSMUNQFmKlJjok_NyH4-_llBDg/edit?usp=sharing" target="_blank">回覆後建立的Google試算表檔案：38-4.-男女對於洗髮精選購的在意點調查 (回覆)</a>
-        <br><a href="picSpss/p341.png" target="_blank">輸入3筆數據法，示意圖</a>，
+        <br>➜<a href="https://docs.google.com/spreadsheets/d/1Fkeq5toyR_Iqxm4fcSEjMRKMzfhyY-Vu9vJ09SJQvTo/edit?usp=sharing" target="_blank">
+          【Google試算表】38-4.-男女對於洗髮精選購的在意點調查 (回覆)
+        </a>
+        <br><a href="picSpss/p341.png" target="_blank">【示意圖】輸入3筆數據法</a>，
 
         <br>➜【檔案】➜【下載】➜【男女對於洗髮精選購的在意點調查.xlsx】
         <br>➜把【時間戳記】➜修改成【編號】➜這個欄位，滑鼠右鍵➜修改【儲存格格式】➜改成【數值】➜小數點0位
         <br>➜修改編號的值，輸入【1，2，3，.....】
         <br>➜修改欄位名稱【使用品牌，去頭皮屑，保濕，熱油護髮，止癢，香味，防止分岔，柔順，整體效果】
-        <br><a href="picSpss/p342.png" target="_blank">修改後的excel數據畫面，示意圖</a>，
+        <br><a href="picSpss/p342.png" target="_blank">【示意圖】修改後的excel數據畫面</a>，
         <br>
-        <br>※(5).<a href="picSpss/310-4-消費者對於洗髮精選購的在意點調查.csv 消費者購買洗髮精【考慮的因素】與【選擇品牌】的關係 (回覆).csv" target="_blank">下載問卷調查的完整資料：消費者對於洗髮精選購的在意點調查</a>
+        <br>※(5).
+        <a href="picSpss/310-4- 消費者購買洗髮精【考慮的因素】與【選擇品牌】的關係 (回覆).csv" target="_blank">
+          【csv數據集】下載問卷調查的完整資料：消費者對於洗髮精選購的在意點調查
+        </a>
         <br>※開啟【310-4-消費者對於洗髮精選購的在意點調查.csv】，
         <br>➜複製csv的數據，貼到excel檔案
-        <br><a href="picSpss/p343.png" target="_blank">修改後的excel數據畫面，示意圖</a>，
+        <br><a href="picSpss/p343.png" target="_blank">【示意圖】修改後的excel數據畫面</a>，
         <br>
         ※(6).【分析題目】：【消費者購買洗髮精【考慮的因素】會隨著【選擇品牌的不同】，而有顯著差異嗎？(1)
         <br><img src="picSpss/p343.png" width="60%">        
@@ -4984,7 +5639,8 @@ mark.pink {
         <br>➜將excel的全部數據，複製貼到SPSS
         <br><a href="picSpss/p344.png" target="_blank">設定變數，示意圖1</a>，
         <a href="picSpss/p345.png" target="_blank">貼上數據，示意圖2</a>，
-
+        <br>
+        <br>➜<a href="picSpss/310-4-洗髮精購買考慮因素.zip" target="_blank">【建立好的SPSS資料檔】]</a>，
         <br>
         <br>※(9).建立【單因子變異數分析
         <br>➜上方【分析】➜【比較平均數法】➜【單因子變異數分析】
@@ -5050,7 +5706,10 @@ mark.pink {
         ※(1).【成果Demo】：把上述【消費者對於洗面乳選購的檢定】➜撰寫分析報告【SPSS➜Excel➜Word】(3)
         <br><img src="picSpss/p352.png" width="40%">
         <br><img src="picSpss/p348.png" width="40%">
-        <br>⬇
+        <br>
+        <br><a href="https://docs.google.com/document/d/135G2mmzYAzAPjnqe8mf37rAFnWC45D4u/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">310-4-題目</a>
+        <br><a href="https://docs.google.com/document/d/1yukmSWDg8mjhTuZYICFreRIzX6lpT745/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">310-4-分析報告</a>
+        <br>
         <br><a href="picSpss/310-5.消費者對於洗面乳選購報告-Excel.xlsx" target="_blank">【下載Excel成果檔案】</a>，
         <br><a href="picSpss/310-5-消費者於洗髮精選購考量因素與品牌的分析報告.docx" target="_blank">【下載Word分析報告檔案】</a>，
         <br><img src="picSpss/p364.png" width="70%">
@@ -5128,7 +5787,7 @@ mark.pink {
    
   
 
-  <p><a class="font-weight-bold" >【3-11-相關性研究】：探討2個變數之間的相關性（2種方法：相關係數法，繪製散佈圖法）</a></p>
+  <p id="main3-11"><a class="font-weight-bold" >【3-11，相關性研究】：探討2個變數之間的相關性（2種方法：相關係數法，繪製散佈圖法）</a></p>
 
   
   <p style="text-indent: 50px;">
@@ -5141,6 +5800,9 @@ mark.pink {
       <p style="text-indent: 60px;">
         ※(1).【成果Demo】：探討A公司的【投放的廣告費】與【銷售量】的【相關性】？
         <br><img src="picSpss/p371.png" width="70%">
+        <br>
+        <br><a href="https://docs.google.com/document/d/13lEjXLnvDfsKv1rlLnBnNgXtoWkdIjRZ/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">311-1-題目</a>
+        <br><a href="https://docs.google.com/document/d/14v0g7SNLqyue0KWqNSrISWcgId2BygqR/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">311-2-分析報告-正確寫法</a>
         <br>
         <br>※(2).【觀念】：探討2個變數之間的相關性，2種方法：
         <br>➜方法1：【相關係數法】        
@@ -5217,6 +5879,9 @@ mark.pink {
       <p style="text-indent: 60px;">
         ※(1).【成果Demo】：探討A公司的【投放的廣告費】與【銷售量】的【相關性】？
         <br><img src="picSpss/p376.png" width="60%">
+        <br>
+        <br><a href="https://docs.google.com/document/d/1JVqHsdgxr4Gxvznfo1--zoW_mhIXohzR/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">311-2-題目</a>
+        <br><a href="https://docs.google.com/document/d/1RYSh83dys0DR1RzxgrSP3Cl24YI3EAul/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">311-2-分析報告-正確寫法</a>
         <br>
         <br>※(2).【觀念】：探討2個變數之間的相關性，2種方法：
         <br>➜方法1：【相關係數法】        
@@ -5360,7 +6025,10 @@ mark.pink {
       <p style="text-indent: 60px;">
         ※(1).【成果Demo】：【多個變數之間的相關矩陣】：探討汽車【鈑金，省油，價格】3個變數的相關性（但容易出現誤判）？
         <br><img src="picSpss/p380.png" width="70%">
-
+        <br>
+        <br><a href="https://docs.google.com/document/d/1BQQISfNh3m1sYs1_OLU8xTG8t435P_7b/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">311-4-題目</a>
+        <br><a href="https://docs.google.com/document/d/1JKeLbap2rB6A38k-j-l0kBG1Ler6mPIK/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">311-4-分析報告-錯誤寫法</a>
+        <br><a href="https://docs.google.com/document/d/1OSfwjrRW0BX9HWRVwKXUunz-xTvg2Obt/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">311-4-分析報告-正確寫法</a>
         <br>
         <br>※(2).<a href="picSpss/311-4-汽車鈑金省油價格相關性.csv" target="_blank">下載問卷調查資料：汽車鈑金省油價格相關性</a>
         <br>※開啟【311-4-汽車鈑金省油價格相關性.csv】
@@ -5415,7 +6083,10 @@ mark.pink {
       <p style="text-indent: 60px;">
         ※(1).【成果Demo】：【多個變數之間的相關矩陣】：探討學生【成績，出席率，選修學分數，打工時數】4個變數的相關性？（但容易出現誤判）？
         <br><img src="picSpss/p381.png" width="70%">
-
+        <br>
+        <br><a href="https://docs.google.com/document/d/1zFqXGqNHBWxkvBeY0R93yPadq9TVxbqs/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">311-5-題目</a>
+        <br><a href="https://docs.google.com/document/d/1WtEqRDF5X34iIcz7yPkjLkHK614eEcb7/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">311-5-分析報告-錯誤寫法</a>
+        <br><a href="https://docs.google.com/document/d/1cfc8ZtQqXGiPZoNWqC4RcYuvHRJP0t21/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">311-5-分析報告-正確寫法</a>
         <br>
         <br>※(2).<a href="picSpss/311-5-成績，出席率，學分數，打工時數相關性.csv" target="_blank">下載問卷調查資料：成績，出席率，學分數，打工時數相關性</a>
         <br>※開啟【311-5-成績，出席率，學分數，打工時數相關性.csv】
@@ -5483,6 +6154,11 @@ mark.pink {
       <p style="text-indent: 60px;">
         ※(1).【chp311-4的成果Demo】：【多個變數之間的相關矩陣】：探討汽車【鈑金，省油，價格】3個變數的相關性？        
         <br><img src="picSpss/p380.png" width="60%">
+        <br>
+        <br><a href="https://docs.google.com/document/d/1BQQISfNh3m1sYs1_OLU8xTG8t435P_7b/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">311-4-題目</a>
+        <br><a href="https://docs.google.com/document/d/1JKeLbap2rB6A38k-j-l0kBG1Ler6mPIK/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">311-4-分析報告-錯誤寫法</a>
+        <br><a href="https://docs.google.com/document/d/1OSfwjrRW0BX9HWRVwKXUunz-xTvg2Obt/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">311-4-分析報告-正確寫法</a>
+        <br>
         <br>※【當初的結論】：【省油 vs 價格】是【高度正相關】➜不好理解，會不會相關性判斷錯誤了？
         <br>➜【這個結論，是錯誤的】
         <br>⬇
@@ -5556,6 +6232,11 @@ mark.pink {
       <p style="text-indent: 60px;">
         ※(1).【chp311-4的成果Demo】：【偏相關(Partial，淨相關)：多個變數之間排除其他條件的專門檢定2個變數】：探討學生【平均成績 vs 打工時數】4個變數的2個變數的相關性？
         <br><img src="picSpss/p382.png" width="60%">
+        <br>
+        <br><a href="https://docs.google.com/document/d/1zFqXGqNHBWxkvBeY0R93yPadq9TVxbqs/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">311-5-題目</a>
+        <br><a href="https://docs.google.com/document/d/1WtEqRDF5X34iIcz7yPkjLkHK614eEcb7/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">311-5-分析報告-錯誤寫法</a>
+        <br><a href="https://docs.google.com/document/d/1cfc8ZtQqXGiPZoNWqC4RcYuvHRJP0t21/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">311-5-分析報告-正確寫法</a>
+        <br>
         <br>※【當初的結論】：【結論4】：【出席率 vs 選修學分】是【中度相關】
         <br>➜【這個結論，是錯誤的】
         <br>⬇
@@ -5618,7 +6299,7 @@ mark.pink {
 
     
 
-  <p><a class="font-weight-bold" >【3-12-迴歸分析】：探討依變數y與自變數x之間的迴歸方程式</a></p>
+  <p id="main3-12"><a class="font-weight-bold" >【3-12，迴歸分析】：探討依變數y與自變數x之間的迴歸方程式</a></p>
 
   
   <p style="text-indent: 50px;">
@@ -5633,6 +6314,9 @@ mark.pink {
         <span class="red">
           <br>※【線性迴歸方程式】：y = 10.467*x （y是銷售量，x是廣告費）
         </span>
+        <br>
+        <br><a href="https://docs.google.com/document/d/1-H9oymfARtE5J-8MloGJrmVn5iqZBNdX/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">312-1-題目</a>
+        <br><a href="https://docs.google.com/document/d/1pVJMcnfJiKqQZq8Vh7fkOIzlSmV_02aT/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">312-1-分析報告-正確寫法</a>
         <br>
         <br>-----------------------------
         <br>※(2).<a href="picSpss/312-1-廣告費與銷售量.csv" target="_blank">下載問卷調查資料：廣告費與銷售量</a>
@@ -5742,6 +6426,7 @@ mark.pink {
           <br>※【線性迴歸方程式】：y = 0.858*x （y是銀行放款金額，x是銀行存款金額）
         </span>
         <br>
+
         <br>-----------------------------
         <br>※(2).<a href="picSpss/312-2-銀行之存款放款餘額.csv" target="_blank">下載問卷調查資料：銀行之存款放款餘額</a>
         <br>※開啟【312-2-銀行之存款放款餘額.csv】
@@ -5847,6 +6532,9 @@ mark.pink {
           <br>※【線性迴歸方程式】：y = -5.612*x +62.667 （y是價格，x是車齡）
         </span>
         <br>
+        <br><a href="https://docs.google.com/document/d/1WVwvaxJTGMmlYC7AY6klpPDEf_0I0VMq/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">312-3-題目</a>
+        <br><a href="https://docs.google.com/document/d/1MQ-y3oSAb9oHIbRkDA4Cc-2Rh2Qd68tk/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">312-3-分析報告-正確寫法</a>
+        <br>
         <br>-----------------------------
         <br>※(2).<a href="picSpss/312-3-中古車車齡與車價.csv" target="_blank">下載問卷調查資料：中古車車齡與車價</a>
         <br>※開啟【312-3-中古車車齡與車價.csv】
@@ -5934,6 +6622,7 @@ mark.pink {
         </span>
         <br><img src="picSpss/p408.png" width="50%">
         <br>
+
         <br>-----------------------------
         <br>※(2).<a href="picSpss/312-3-中古車車齡與車價.csv" target="_blank">下載問卷調查資料：中古車車齡與車價</a>
         <br>※開啟【312-3-中古車車齡與車價.csv】
@@ -6026,6 +6715,9 @@ mark.pink {
         </span>
         <br><img src="picSpss/p412.png" width="50%">
         <br>
+        <br><a href="https://docs.google.com/document/d/13US_chtAUk6Ne9VsNO3qOCcBBh1FaKRO/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">312-5-題目</a>
+        <br><a href="https://docs.google.com/document/d/1ivFq5ahGNyLUA6GpVf22GtDyDYWJvQSF/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">312-5-分析報告-正確寫法</a>
+        <br>
         <br>-----------------------------
         <br>※(2).<a href="picSpss/312-5-年齡與所得.csv" target="_blank">下載問卷調查資料：年齡與所得</a>
         <br>※開啟【312-5-年齡與所得.csv】
@@ -6111,9 +6803,11 @@ mark.pink {
         ※(1).【成果Demo】：
         <span class="red">
           <br>※【對數迴歸方程式】： y = 21.512*ln(x) + 19.478（y是樹木高度，x是直徑）
-          <br>※【二次曲線迴歸方程式】： y = -0.171*x**2＋6.933*x + 19.639（y是樹木高度，x是直徑）</span>
         </span>
-        <br><img src="picSpss/p415.png" width="50%">
+        <br><img src="picSpss/p446.png" width="50%">
+        <br>
+        <br><a href="https://docs.google.com/document/d/1mnTL-TJnRwe1w6XBzbAmga8KVCIz2uQa/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">312-6-題目</a>
+        <br><a href="https://docs.google.com/document/d/1d1rdghGH0AEUB0tzqicpW3osfSHCiHzu/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">312-6-分析報告-正確寫法</a>
         <br>
         <br>-----------------------------
         <br>※(2).<a href="picSpss/312-6-樹木直徑與高度.csv" target="_blank">下載問卷調查資料：樹木直徑與高度</a>
@@ -6134,13 +6828,13 @@ mark.pink {
         <br>➜勾選【方程式帶有常數項】
         <br>➜勾選【印出模式的線形圖】
         <span class="red">
-        <br>➜勾選【模型】➜勾選【線性，二次曲線，對數】
+        <br>➜勾選【模型】➜勾選【對數】
         <br>➜勾選【顯示ANOVA摘要表】
       </span>
-        <br><img src="picSpss/p413.png" width="50%">
-        <br><img src="picSpss/p414.png" width="50%">
+        <br><img src="picSpss/p447.png" width="50%">
+        <br><img src="picSpss/p448.png" width="50%">
         <br>【對數曲線】
-        <br><img src="picSpss/p415.png" width="50%">
+        <br><img src="picSpss/p446.png" width="50%">
         <br>
         <br><span class="red">
           ※(5).先看【變異數分析】表格➜【可以評估這個自變數x與依變數y之間是否有顯著的迴歸線關係？】
@@ -6162,20 +6856,15 @@ mark.pink {
           <br>※(7).再看【對數-顯著性】欄位：
           <br>※看（常數）的【顯著性】值 = 0.000＜0.05 ➜支持【對立】假設➜（常數）項不可以忽略
           <br>➜就是*ln(x) + b 的【b】係數，不可以省略
-          <br>※看（x，x**2）的【顯著性】值 = 0.000＜0.05 ➜支持【對立】假設➜（廣告費x）項關係重要，顯著影響
           <br><span class="red">
             ➜就是 *ln(x) + b的【a,b】係數，不可以省略
             <br>※【對數迴歸方程式】： y = 21.512*ln(x) + 19.478（y是樹木高度，x是直徑）
           </span>
-          <br>
-          <br>※(8).再看【二次曲線-顯著性】欄位：
-          <br>※【二次曲線迴歸方程式】： y = -0.171*x**2＋6.933*x + 19.639（y是樹木高度，x是直徑）
-        
+
         <br>
       <span class="red">
         <br>※(8).【結論】：
         <br>※【對數迴歸方程式】： y = 21.512*ln(x) + 19.478（y是樹木高度，x是直徑）
-      <br>※【二次曲線迴歸方程式】： y = -0.171*x**2＋6.933*x + 19.639（y是樹木高度，x是直徑）</span>
         
     </p>
 
@@ -6200,7 +6889,9 @@ mark.pink {
           <br>※【線性迴歸方程式】：y = -5.612*x +62.667 （y是價格，x是車齡）
         </span>
         <br><img src="picSpss/p420.png" width="50%">
-
+        <br>
+        <br><a href="https://docs.google.com/document/d/1kPQ-iGR2gXUfw5VPZH_JIMUObSwXVeoo/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">312-7-題目</a>
+        <br><a href="https://docs.google.com/document/d/18d5GcPemw8-vypRKXGtheOSR2cWEym0z/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">312-7-分析報告-正確寫法</a>
         <br>
         <br>-----------------------------
         <br>※(2).<a href="picSpss/312-7-中古車車齡與車價.csv" target="_blank">下載問卷調查資料：中古車車齡與車價</a>
@@ -6394,7 +7085,10 @@ mark.pink {
           <br>➜【多元迴歸方程式】：y = 0.103*x3 - 0.055*x4 + 0.55
           <br>➜【多元迴歸方程式】：出席率y = 0.103*上課內容x3 - 0.055*上課時段x4 + 0.55
        </span>
-        <br>
+       <br>
+       <br><a href="https://docs.google.com/document/d/1WPZUN0XGLd17Hb0K2pJv0xFPXUsQt8BA/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">312-9-題目</a>
+       <br><a href="https://docs.google.com/document/d/1oWHWaCB8Vy4KoYbYh0RVtyjbJj1TWTqC/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">312-9-分析報告-正確寫法</a>
+       <br>
         <br>-----------------------------
         <br>※(2).<a href="picSpss/312-9-上課出席率.csv" target="_blank">下載問卷調查資料：上課出席率</a>
         <br>※開啟【312-9-上課出席率.csv】
@@ -6481,7 +7175,7 @@ mark.pink {
 
 
 
-  <p><a class="font-weight-bold" >【四，實作：程式量化分析方法：Python統計分析(scipy統計模組)】</a></p>
+  <p id="main4"><a class="font-weight-bold" >【四，實作：程式量化分析方法：Python統計分析(scipy統計模組)】</a></p>
 
   <p style="text-indent: 50px;">
     <a class="text-danger" data-bs-toggle="collapse" href="#collapseExample-1" role="button" aria-expanded="false" aria-controls="collapseExample-41">
@@ -6563,7 +7257,7 @@ mark.pink {
   </div>
 
 
-  <p><a class="font-weight-bold" >【五，實作：應用人工智慧於顧客區隔（Customer Segmentation）的分群預測，可找出不同的目標客群，然後做差異性行銷】</a></p>
+  <p id="main5"><a class="font-weight-bold" >【五，實作：應用人工智慧於顧客區隔（Customer Segmentation）的分群預測，可找出不同的目標客群，然後做差異性行銷】</a></p>
   <p><a class="font-weight-bold" >【5-1.三步驟的分類預測：Classification Prediction】</a></p>
   <p style="text-indent: 60px;"><a href="https://colab.research.google.com/drive/1r2uThw9psGFXMBuh6zBItwIkTVnZSr-F?usp=sharing" target="_blank">範例5-3.用sklearn模組，『簡易3步驟』建立『KNN，K鄰近』模型來預測『客戶關係管理裡面的客戶價值度』</a></p>
   <p style="text-indent: 60px;"><a href="https://colab.research.google.com/drive/1qOL9qTQZR-nEqMiXJ2cH1xuzYunvxy9u?usp=sharing" target="_blank">範例5-4.用sklearn模組，『簡易3步驟』建立『邏輯迴歸』模型來預測『客戶關係管理裡面的客戶價值度』</a></p>
@@ -6608,12 +7302,13 @@ mark.pink {
   </tr>
   <tr bgcolor="#f0f0f0">
     <td bgcolor="#FFFFFF">上課工具</td>
-    <td class="style11"><a href="https://docs.google.com/document/d/1EmyRVjYKVXTCR9QvB2ax1i2UsNAecJCH/edit?usp=sharing&ouid=112989736218524454297&rtpof=true&sd=true" target="_blank">線上黑板(
+    <td class="style11"><a href="https://docs.google.com/document/d/1_p-IXvbFy1yBbYxcKX4NcEH7swqyanLx/edit?usp=sharing&ouid=112989736218524454297&rtpof=true&sd=true" target="_blank">線上黑板(
   Online blackboard)</a></td>
    <td><a href="https://meet.google.com/ccy-zwaf-mfi" target="_blank">廣播教學</a></td>
-    <td><a href="https://www.youtube.com/watch?v=VbpXtJf8JsI&list=PLfsmXlCfpMJXI1811o5qSjsY4OJ8C0T5o" target="_blank">上課錄影影片</a></td>
+    <td><a href="https://www.youtube.com/playlist?list=PLfsmXlCfpMJVqBUQfg049tsw56AKsPs6B" target="_blank">上課錄影影片</a></td>
     <td><a href="https://drive.google.com/file/d/1BfTA4ETiDDXP-J3rxHuHGS3aVbLLJRFs/view?usp=sharing" target="_blank">Goole輸入法(Input:exe)</a></td>
-  <td></td>    
+    <td><a href="https://drive.google.com/file/d/1M-21-uQ9YDMU67N8tPkq1YvRrvDupZSR/view?usp=sharing" target="_blank">teams遠距上課-北科大使用方法</a></td>
+
 </tr>
 <tr bgcolor="#f0f0f0">
   <td bgcolor="#FFFFFF">證照考試：商用數據應用師</td>
@@ -6950,6 +7645,60 @@ import matplotlib<br>
 
 </table>
 
+  
+<p id="homework"></p>
+<p></p>
+<table class="table table-bordered table-condensed"  bordercolor="#dddddd" width="100%">   
+  <tr bgcolor="#f0f0f0">
+    <td colspan="6">作業（homework）</td>
+  </tr>
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF"></td>
+  <td><a href="https://docs.google.com/document/d/1JQO0mSbs6UYy12hdrWe2F89_om1EJfSY/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">作業1</a></td>
+  <td><a href="" target="_blank"></a></td>
+  <td><a href="" target="_blank"></a></td>
+  <td><a href="" target="_blank"></a></td>
+</tr>
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF"></td>
+  <td><a href="https://docs.google.com/document/d/1oAsxJsuqLiaLeHzTMCq2glBVV5OwDFWc/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">作業2</a></td>
+  <td><a href="" target="_blank"></a></td>
+  <td><a href="" target="_blank"></a></td>
+  <td><a href="" target="_blank"></a></td>
+</tr>  
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF"></td>
+  <td><a href="https://docs.google.com/document/d/1lfWl3im481DpngPEINrQeRs_mIER9Fnh/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">作業3</a></td>
+  <td><a href="" target="_blank"></a></td>
+  <td><a href="" target="_blank"></a></td>
+  <td><a href="" target="_blank"></a></td>
+</tr>  
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF"> side project</td>
+  <td><a href="https://docs.google.com/document/d/1vDb8uoTm7Jb8crINZxtPTnpMvyH1PGOC/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">期末作業<br>(side project)</a></td>
+  <td span="3">
+    1.題目：你是A公司的新進行銷人員，請你使用SPSS的量化分析技術，表現出你有精準制定決策的能力
+    <br>2.目的：用SPSS量化分析技術、做精準市場調查分析、精準產品定位、精準競爭品牌分析、精準行銷、精準客戶服務，達成數據驅動輔助決策(DDDM)的制定。
+    <br>3.數據集種類：商業交易數據、公司內部數據、行銷活動問卷調查數據、學生學習問卷數據、學生體能調查數據，咖啡飲料市場調查數據、
+    <br>最後請寫出分析報告。請多用定量描述的方式，來證明你分析觀點的可靠性、準確性與權威性，以建立個人數據分析的品牌與形象。
+    <br>4.分析題目：共9題
+    <hr>
+    第1題：咖啡飲料市場的市場調查，與前二競爭對手品牌調查
+    <br>第2題：量化分析【工作效率】與【工作年資，每日開會時數】的迴歸方程式
+    <br>第3題：量化分析【學習時數、社交活動時間、線上課程參與次數】對【考試成績】的相關係數
+    <br>第4題：量化分析與DDDM應用在Netflix影片平台的差異性行銷與目標客戶的選定
+    <br>第5題：行銷活動問卷，不同男女客戶的體驗行銷度分析
+    <br>第6題：行銷活動問卷，不同教育程度客戶的滿意度分析
+    <br>第7題：行銷活動問卷，探討『服務品質』對『滿意度』的關聯影響
+    <br>第8題：行銷活動問卷，探討『性別』對『已婚否』的關聯影響
+    <br>第9題：同學結果訓練四周後，探討柔韌性是否有改善分析
+
+
+    <br>
+  </td>
+</tr>  
+
+</table>
 
 
 
@@ -6977,6 +7726,13 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth' }); // 平滑滾動
+            }
+        }
 </script>
 
   </body>
